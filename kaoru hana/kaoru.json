@@ -2,22 +2,22 @@
   "episodes": [
     {
       "id": 1,
-      "title": "Episode 1 - Pertemuan",
+      "title": "1. Rintaro dan kaoru",
       "video": "https://github.com/ikyStarboy/Api-imgbb/raw/refs/heads/main/EP1-360p.mp4"
     },
     {
       "id": 2,
-      "title": "Episode 2 - Rahasia",
+      "title": "2. Chidori dan Kikyo",
       "video": "https://github.com/ikyStarboy/Api-imgbb/raw/refs/heads/main/EP2-360p.mp4"
     },
     {
       "id": 3,
-      "title": "Episode 3 - Kenangan Masa Lalu",
+      "title": "3. eps 3",
       "video": "https://github.com/ikyStarboy/Api-imgbb/raw/refs/heads/main/EP3-360p.mp4"
     },
     {
       "id": 4,
-      "title": "Episode 4 - Kejutan di Sekolah",
+      "title": "4. Kehangatan Hati",
       "video": "https://github.com/ikyStarboy/Api-imgbb/raw/refs/heads/main/EP4-360p.mp4"
     },
     {
