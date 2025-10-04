@@ -1,0 +1,69 @@
+{
+  "episodes": [
+    {
+      "id": 1,
+      "title": "Episode 1 - Pertemuan",
+      "video": "https://github.com/ikyStarboy/Api-imgbb/raw/refs/heads/main/EP1-360p.mp4"
+    },
+    {
+      "id": 2,
+      "title": "Episode 2 - Rahasia",
+      "video": "https://github.com/ikyStarboy/Api-imgbb/raw/refs/heads/main/EP2-360p.mp4"
+    },
+    {
+      "id": 3,
+      "title": "Episode 3 - Kenangan Masa Lalu",
+      "video": "https://github.com/ikyStarboy/Api-imgbb/raw/refs/heads/main/EP3-360p.mp4"
+    },
+    {
+      "id": 4,
+      "title": "Episode 4 - Kejutan di Sekolah",
+      "video": "https://github.com/ikyStarboy/Api-imgbb/raw/refs/heads/main/EP4-360p.mp4"
+    },
+    {
+      "id": 5,
+      "title": "Episode 5 - Hujan dan Janji",
+      "video": "https://github.com/ikyStarboy/Api-imgbb/raw/refs/heads/main/EP5-360p.mp4"
+    },
+    {
+      "id": 6,
+      "title": "Episode 6 - Sebuah Kebetulan",
+      "video": "https://github.com/ikyStarboy/Api-imgbb/raw/refs/heads/main/EP6-360p.mp4"
+    },
+    {
+      "id": 7,
+      "title": "Episode 7 - Tersenyum Bersama",
+      "video": "https://github.com/ikyStarboy/Api-imgbb/raw/refs/heads/main/EP7-360p.mp4"
+    },
+    {
+      "id": 8,
+      "title": "Episode 8 - Hari yang Panjang",
+      "video": "https://github.com/ikyStarboy/Api-imgbb/raw/refs/heads/main/EP8-360p.mp4"
+    },
+    {
+      "id": 9,
+      "title": "Episode 9 - Langit Senja",
+      "video": "https://github.com/ikyStarboy/Api-imgbb/raw/refs/heads/main/EP9-360p.mp4"
+    },
+    {
+      "id": 10,
+      "title": "Episode 10 - Di Balik Senyum",
+      "video": "https://github.com/ikyStarboy/Api-imgbb/raw/refs/heads/main/EP10-360p.mp4"
+    },
+    {
+      "id": 11,
+      "title": "Episode 11 - Sebuah Perasaan",
+      "video": "https://github.com/ikyStarboy/Api-imgbb/raw/refs/heads/main/EP11-360p.mp4"
+    },
+    {
+      "id": 12,
+      "title": "Episode 12 - Kata yang Tak Terucap",
+      "video": "https://github.com/ikyStarboy/Api-imgbb/raw/refs/heads/main/EP12-360p.mp4"
+    },
+    {
+      "id": 13,
+      "title": "Episode 13 - Akhir Musim Semi",
+      "video": "https://github.com/ikyStarboy/Api-imgbb/raw/refs/heads/main/EP13-360p.mp4"
+    }
+  ]
+}
