@@ -1,10 +1,16 @@
 [
-  {
-    "anime": "Kaoru Hana Wa Rin To Saku",
-    "image": "https://raw.githubusercontent.com/ikyStarboy/Api-imgbb/refs/heads/main/kaoru%20hana/026dc828-5c94-4142-b832-083eb1971835.jpeg"
-  },
-  {
-    "anime": "Hikari No Yume",
-    "image": "https://ibb.co/wxyz5678"
-  }
+    {
+        "id": "hura",
+        "title": "Hura-Hura Tiba-Tiba",
+        "synopsis": "Kisah tentang seorang anak yang belajar ilmu pedang.",
+        "poster": "https://raw.githubusercontent.com/ikyStarboy/Api-imgbb/refs/heads/main/kaoru%20hana/026dc828-5c94-4142-b832-083eb1971835.jpeg",
+        "episodes_url": "https://raw.githubusercontent.com/ikyStarboy/Api-imgbb/refs/heads/main/kaoru%20hana/kaoru.json"
+    },
+    {
+        "id": "hira",
+        "title": "Hira-Hira Abadi",
+        "synopsis": "Kisah petualangan di dunia sihir yang indah dan penuh misteri.",
+        "poster": "https://i.ibb.co.com/hira-poster.jpg",
+        "episodes_url": "https://raw.githubusercontent.com/user/repo/main/hira.json"
+    }
 ]
