@@ -19,5 +19,19 @@
         "synopsis": "Rudo tinggal di daerah kumuh kota kaya bersama ayah angkatnya, Regto. Ia membenci gaya hidup boros kaum atas dan sering mencari barang berguna di tempat sampah kota, meski dilarang. Suatu hari, setelah bertemu sosok misterius, Rudo pulang dan menemukan Regto tewas. Ia dituduh sebagai pelaku dan dibuang ke “Abyss,” lubang besar tempat semua sampah—termasuk manusia—dilemparkan Di sana, Rudo bertahan dari serangan monster sampah dan diselamatkan oleh Enjin, seorang “Cleaner” yang membasmi makhluk tersebut dengan senjata khusus. Demi membalas dendam atas kematian Regto, Rudo pun menjadi Cleaner dan berjuang keluar dari Abyss.",
         "poster": "https://raw.githubusercontent.com/ikyStarboy/Api-imgbb/refs/heads/main/gachia/0ba12b80a3492d921cc335b1e68638d2.jpg",
         "episodes_url": "https://raw.githubusercontent.com/ikyStarboy/Api-imgbb/refs/heads/main/gachia/gachia.json"
+    },
+    {
+        "id": "tnds1",
+        "title": "Tondemo skill de Isekai Hourou Meshi",
+        "synopsis": "Tsuyoshi Mukōda, karyawan biasa yang terseret ke dunia fantasi secara tak sengaja, bukan termasuk pahlawan terpilih dan memiliki statistik lemah. Menyadari kerajaan itu mencurigakan, ia memutuskan pergi sendiri. Satu-satunya kemampuan uniknya adalah [Supermarket Online], yang memungkinkannya membeli barang modern di dunia sihir.",
+        "poster": "https://raw.githubusercontent.com/ikyStarboy/Api-imgbb/refs/heads/main/tondemos1/e6e9f8feed5a0ce0615aab8a9b8e1dec.jpg",
+        "episodes_url": "https://raw.githubusercontent.com/ikyStarboy/Api-imgbb/refs/heads/main/tondemos1/tnds1.json"
+    },
+    {
+        "id": "tnds2",
+        "title": "Tondemo skill de Isekai Hourou Meshi 2",
+        "synopsis": "Tsuyoshi Mukōda, karyawan biasa yang terseret ke dunia fantasi secara tak sengaja, bukan termasuk pahlawan terpilih dan memiliki statistik lemah. Menyadari kerajaan itu mencurigakan, ia memutuskan pergi sendiri. Satu-satunya kemampuan uniknya adalah [Supermarket Online], yang memungkinkannya membeli barang modern di dunia sihir.",
+        "poster": "https://raw.githubusercontent.com/ikyStarboy/Api-imgbb/refs/heads/main/tondemos2/b3739c86a73cb07532bd8bd355b0b291.jpg",
+        "episodes_url": "https://raw.githubusercontent.com/ikyStarboy/Api-imgbb/refs/heads/main/tondemos2/tnds2.json"
     }
 ]
