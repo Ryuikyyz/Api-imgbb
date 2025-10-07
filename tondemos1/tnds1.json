@@ -1,1 +1,66 @@
-
+{
+  "title": "Tondemo Skill de Isekai Hourou Meshi",
+  "banner": "https://raw.githubusercontent.com/ikyStarboy/Api-imgbb/refs/heads/main/tondemos1/e6e9f8feed5a0ce0615aab8a9b8e1dec.jpg",
+  "episodes": [
+    {
+      "id": 1,
+      "title": "1. Keterampilan Tetap Berguna",
+      "video": "https://storages.sokuja.id/video2/tondemo.skill.de.isekai.hourou.meshi/sokuja.net.TSIHM.1.480p.mp4"
+    },
+    {
+      "id": 2,
+      "title": "2. Familiar Yang Menonjol",
+      "video": "https://storages.sokuja.id/video2/tondemo.skill.de.isekai.hourou.meshi/sokuja.net.TSIHM.2.480p.mp4"
+    },
+    {
+      "id": 3,
+      "title": "3. Kelebihan Tenaga Untuk Memasak",
+      "video": "https://storages.sokuja.id/video2/tondemo.skill.de.isekai.hourou.meshi/sokuja.net.TSIHM.3.480p.mp4"
+    },
+    {
+      "id": 4,
+      "title": "4. Anda Tidak Dapat Memulai Tanpa Peta",
+      "video": "https://storages.sokuja.id/video2/tondemo.skill.de.isekai.hourou.meshi/sokuja.net.TSIHM.4.480p-v2.mp4"
+    },
+    {
+      "id": 5,
+      "title": "5. Dewi Angin Menyukai Permen",
+      "video": "https://storages.sokuja.id/video2/tondemo.skill.de.isekai.hourou.meshi/sokuja.net.TSIHM.5.480p.mp4"
+    },
+    {
+      "id": 6,
+      "title": "6. Pertumbuhan Datang Tiba tiba",
+      "video": "https://storages.sokuja.id/video2/tondemo.skill.de.isekai.hourou.meshi/sokuja.net.TSIHM.6.480p.mp4"
+    },
+    {
+      "id": 7,
+      "title": "7. Serigala menari Dengan binatang Itu",
+      "video": "https://storages.sokuja.id/video2/tondemo.skill.de.isekai.hourou.meshi/sokuja.net.TSIHM.7.480p.mp4"
+    },
+    {
+      "id": 8,
+      "title": "8. Semua Karakter Bos enak",
+      "video": "https://storages.sokuja.id/video2/tondemo.skill.de.isekai.hourou.meshi/sokuja.net.TSIHM.8.480p.mp4"
+    },
+    {
+      "id": 9,
+      "title": "9. Permintaan Penaklukan Adalah emas",
+      "video": "https://storages.sokuja.id/video2/tondemo.skill.de.isekai.hourou.meshi/sokuja.net.TSIHM.9.480p.mp4"
+    },
+    {
+      "id": 10,
+      "title": "10. Kedua Familiarku Terlalu Dikuasai",
+      "video": "https://storages.sokuja.id/video2/tondemo.skill.de.isekai.hourou.meshi/sokuja.net.TSIHM.10.480p.mp4"
+    },
+    {
+      "id": 11,
+      "title": "11. Bisnis Adalah Untuk Seorang Wanita",
+      "video": "https://storages.sokuja.id/video2/tondemo.skill.de.isekai.hourou.meshi/sokuja.net.TSIHM.11.480p.mp4"
+    },
+    {
+      "id": 12,
+      "title": "12. Petualangan Sebanyak Makanan",
+      "video": "https://storages.sokuja.id/video2/tondemo.skill.de.isekai.hourou.meshi/sokuja.net.TSIHM.12.480p.mp4"
+    }
+  ]
+}
