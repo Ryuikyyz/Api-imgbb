@@ -1,1 +1,11 @@
-
+{
+  "title": "Tondemo Skill de Isekai Hourou Meshi 2",
+  "banner": "https://raw.githubusercontent.com/ikyStarboy/Api-imgbb/refs/heads/main/tondemos2/b3739c86a73cb07532bd8bd355b0b291.jpg",
+  "episodes": [
+    {
+      "id": 1,
+      "title": "1. Teman Baru Saya Tidak Masuk Akal",
+      "video": "https://storages.sokuja.id/2025-fall/tondemo-s2/SOKUJA.NET-TNDM.S2-1.480p.mp4"
+    }
+  ]
+}
