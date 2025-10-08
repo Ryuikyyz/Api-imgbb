@@ -70,5 +70,13 @@
         "synopsis": "Kaya, tampan, dan sukses, Arthur Louis Zetes tak percaya pada manusia dan menginginkan pembantu sempurna—robot maid. Karena tak ada teknologi untuk itu, ia mempekerjakan Marie Evans, mantan jenius bela diri yang berperan seperti robot. Meski keras pada manusia, Arthur perhatian padanya, dan Marie tersentuh oleh kebaikan dan ketulusannya.",
         "poster": "https://raw.githubusercontent.com/ikyStarboy/Api-imgbb/refs/heads/main/kikaki/images%20(43).jpeg",
         "episodes_url": "https://raw.githubusercontent.com/ikyStarboy/Api-imgbb/refs/heads/main/kikaki/kika.json"
+    },
+    {
+        "id": "mushokunoeui",
+        "title": "Mushoku no Eiyuu",
+        "status": "OnGoing",
+        "synopsis": "Arel, putra "Sword Princess" dan "Raja Penyihir", diharapkan punya profesi hebat, tapi malah mendapat julukan "Pengangguran". Meski diremehkan, ia tak menyerah dan terus berusaha hingga memperoleh kekuatan luar biasa, melampaui mereka yang berbakat. Inilah kisah si Pengangguran yang lewat kerja keras akhirnya diakui sebagai “Pahlawan",
+        "poster": "https://raw.githubusercontent.com/ikyStarboy/Api-imgbb/refs/heads/main/mushokunoeui/mushoku-no-eiyuu-6886244d27e32p.jpg",
+        "episodes_url": "https://raw.githubusercontent.com/ikyStarboy/Api-imgbb/refs/heads/main/mushokunoeui/musoku.json"
     }
 ]
