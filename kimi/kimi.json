@@ -1,1 +1,11 @@
-
+{
+  "title": "Kimi No Nawa",
+  "banner": "https://raw.githubusercontent.com/ikyStarboy/Api-imgbb/refs/heads/main/kimi/5faad42ad125141220829e9111dcef6a.jpg",
+  "episodes": [
+    {
+      "id": 1,
+      "title": "1. ",
+      "video": "https://storages.sokuja.id/video2/_MOVIE_/KimiNoNaWa/sokuja.net.KNWA-480p.mp4"
+    }
+  ]
+}
