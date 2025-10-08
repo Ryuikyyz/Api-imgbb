@@ -46,5 +46,13 @@
         "synopsis": "Mitsuha terbangun dan jiwanya berada di tubuh Taki di Tokyo. Mereka tak saling kenal tapi menulis catatan agar mengetahui kegiatan masing-masing. Saat pertukaran tubuh berhenti, Taki mencari Mitsuha di Itomori dan mengetahui desanya hancur akibat komet, Mitsuha termasuk korban.",
         "poster": "https://raw.githubusercontent.com/ikyStarboy/Api-imgbb/refs/heads/main/kimi/5faad42ad125141220829e9111dcef6a.jpg",
         "episodes_url": "https://raw.githubusercontent.com/ikyStarboy/Api-imgbb/refs/heads/main/kimi/kimi.json"
+    },
+    {
+        "id": "koeno",
+        "title": "Koe No Katachi",
+        "status": "Completed",
+        "synopsis": "Shouko Nishimiya, gadis Tuli, dibully Shoya Ishida dan teman-temannya di SD. Setelah ibunya melapor, Shoya dikucilkan. Meski Shouko pindah, Shoya terus bergantung pada belas kasihan teman dan diabaikan guru di SD dan SMP.",
+        "poster": "https://raw.githubusercontent.com/ikyStarboy/Api-imgbb/refs/heads/main/koeno/80294717b4d93adc5d095aeed7b0f205.jpg",
+        "episodes_url": "https://raw.githubusercontent.com/ikyStarboy/Api-imgbb/refs/heads/main/koeno/koeno.js"
     }
 ]
