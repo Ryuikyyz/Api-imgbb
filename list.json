@@ -38,5 +38,13 @@
         "synopsis": "Tsuyoshi Mukōda, karyawan biasa yang terseret ke dunia fantasi secara tak sengaja, bukan termasuk pahlawan terpilih dan memiliki statistik lemah. Menyadari kerajaan itu mencurigakan, ia memutuskan pergi sendiri. Satu-satunya kemampuan uniknya adalah [Supermarket Online], yang memungkinkannya membeli barang modern di dunia sihir.",
         "poster": "https://raw.githubusercontent.com/ikyStarboy/Api-imgbb/refs/heads/main/tondemos2/b3739c86a73cb07532bd8bd355b0b291.jpg",
         "episodes_url": "https://raw.githubusercontent.com/ikyStarboy/Api-imgbb/refs/heads/main/tondemos2/tnds2.json"
+    },
+    {
+        "id": "kimi",
+        "title": "Kimi No Nawa",
+        "status": "Completed",
+        "synopsis": "Mitsuha terbangun dan jiwanya berada di tubuh Taki di Tokyo. Mereka tak saling kenal tapi menulis catatan agar mengetahui kegiatan masing-masing. Saat pertukaran tubuh berhenti, Taki mencari Mitsuha di Itomori dan mengetahui desanya hancur akibat komet, Mitsuha termasuk korban.",
+        "poster": "https://raw.githubusercontent.com/ikyStarboy/Api-imgbb/refs/heads/main/kimi/5faad42ad125141220829e9111dcef6a.jpg",
+        "episodes_url": "https://raw.githubusercontent.com/ikyStarboy/Api-imgbb/refs/heads/main/kimi/kimi.json"
     }
 ]
