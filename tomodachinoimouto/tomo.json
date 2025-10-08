@@ -1,1 +1,11 @@
-
+{
+  "title": "Tomodachi No Imouto ga Ore  ni dake Uzai",
+  "banner": "https://raw.githubusercontent.com/ikyStarboy/Api-imgbb/refs/heads/main/tomodachinoimouto/images%20(42).jpeg",
+  "episodes": [
+    {
+      "id": 1,
+      "title": "1. Adik Perempuan Saya",
+      "video": "https://storages.sokuja.id/2025-fall/tomodachi/SOKUJA.NET-TIOU-1.480p.mp4"
+    }
+  ]
+}
