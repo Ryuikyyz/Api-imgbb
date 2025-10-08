@@ -1,1 +1,11 @@
-
+{
+  "title": "Kikaikikake no Marie",
+  "banner": "https://raw.githubusercontent.com/ikyStarboy/Api-imgbb/refs/heads/main/kikaki/images%20(43).jpeg",
+  "episodes": [
+    {
+      "id": 1,
+      "title": "1. Marie tertutup Kebohongan Dan rahasia",
+      "video": "https://storages.sokuja.id/2025-fall/mechanical-marie/SOKUJA.NET-MNMA-1.480p.mp4"
+    }
+  ]
+}
