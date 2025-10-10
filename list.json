@@ -88,5 +88,14 @@
         "poster": "https://raw.githubusercontent.com/ikyStarboy/Api-imgbb/refs/heads/main/mushokunoeui/mushoku-no-eiyuu-6886244d27e32p.jpg",
         "episodes_url": "https://raw.githubusercontent.com/ikyStarboy/Api-imgbb/refs/heads/main/mushokunoeui/musoku.json",
         "jadwal": "Setiap Rabu, 20:30 WIB"
+    },
+    {
+        "id": "mikata",
+        "title": "Mikata ga Yowasugite Hojo Mahou ni Tesshiteita Kyuutei Mahoushi, Tsuihou sarete Saikyou wo Mezashimasu",
+        "status": "OnGoing",
+        "synopsis": "alec bekerja sebagai penyihir istana yang selalu memakai sihir pendukung karena sekutunya lemah dan butuh dukungan ia menyembunyikan potensi aslinya namun setelah dianggap tidak berguna dan diusir dari kerajaan ia memutuskan untuk bangkit melatih diri menjalin aliansi baru dan membuktikan bahwa sihir pendukung bisa menjadi kekuatan utama dalam perjalanannya ia menghadapi konflik politik pertarungan magis dan pengkhianatan setelah itu ia pergi ke akademi sihir kerajaan dan bertemu yoerha penyihir pendukung yang dulu satu tim dengannya yoerha mengajaknya bergabung lagi dan bersama mereka berjuang menjadi penyihir terkuat alec kini membuktikan bahwa ia bukan hanya pendukung tapi juga bisa menjadi pusat kekuatan di medan pertempuran",
+        "poster": "https://raw.githubusercontent.com/ikyStarboy/Api-imgbb/refs/heads/main/Mikata/Mikata_ga_Yowasugite_Hojo_Mahou_ni_Tesshiteita-1.jpg",
+        "episodes_url": "https://raw.githubusercontent.com/ikyStarboy/Api-imgbb/refs/heads/main/Mikata/Mikata.json",
+        "jadwal": "Setiap Minggu, 17:00 WIB"
     }
 ]
