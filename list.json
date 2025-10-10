@@ -15,7 +15,8 @@
         "synopsis": "Pertarungan terakhir para Pembasmi Iblis dimulai! Setelah pertarungan panjang melawan para Iblis Bulan Atas, Tanjiro dan kawan-kawan akhirnya memasuki Kastil Tak Terbatas milik Kibutsuji Muzan. Dalam labirin yang berubah tanpa henti ini, mereka harus menghadapi pertempuran paling sengit demi mengakhiri teror iblis selamanya.",
         "poster": "https://raw.githubusercontent.com/ikyStarboy/Api-imgbb/refs/heads/main/kimetsu/399b83aa72375e3e8aad65b57656f646.jpg",
         "episodes_url": "https://raw.githubusercontent.com/ikyStarboy/Api-imgbb/refs/heads/main/kimetsu/kimetsu.json",
-        "jadwal": "Entah Kapan"
+        "jadwal": "Entah Kapan",
+        "type": "movie"
     },
     {
         "id": "gachi",
@@ -51,7 +52,8 @@
         "synopsis": "Mitsuha terbangun dan jiwanya berada di tubuh Taki di Tokyo. Mereka tak saling kenal tapi menulis catatan agar mengetahui kegiatan masing-masing. Saat pertukaran tubuh berhenti, Taki mencari Mitsuha di Itomori dan mengetahui desanya hancur akibat komet, Mitsuha termasuk korban.",
         "poster": "https://raw.githubusercontent.com/ikyStarboy/Api-imgbb/refs/heads/main/kimi/5faad42ad125141220829e9111dcef6a.jpg",
         "episodes_url": "https://raw.githubusercontent.com/ikyStarboy/Api-imgbb/refs/heads/main/kimi/kimi.json",
-        "jadwal": "Selesai Tayang"
+        "jadwal": "Selesai Tayang",
+        "type": "movie"
     },
     {
         "id": "koeno",
@@ -60,7 +62,8 @@
         "synopsis": "Shouko Nishimiya, gadis Tuli, dibully Shoya Ishida dan teman-temannya di SD. Setelah ibunya melapor, Shoya dikucilkan. Meski Shouko pindah, Shoya terus bergantung pada belas kasihan teman dan diabaikan guru di SD dan SMP.",
         "poster": "https://raw.githubusercontent.com/ikyStarboy/Api-imgbb/refs/heads/main/koeno/80294717b4d93adc5d095aeed7b0f205.jpg",
         "episodes_url": "https://raw.githubusercontent.com/ikyStarboy/Api-imgbb/refs/heads/main/koeno/koeno.js",
-        "jadwal": "Selesai Tayang"
+        "jadwal": "Selesai Tayang",
+        "type": "movie"
     },
     {
         "id": "Tomoda",
