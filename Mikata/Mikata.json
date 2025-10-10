@@ -1,1 +1,11 @@
-
+{
+  "title": "Mushoku no Eiyuu",
+  "banner": "https://raw.githubusercontent.com/ikyStarboy/Api-imgbb/refs/heads/main/kikaki/images%20(43).jpeg",
+  "episodes": [
+    {
+      "id": 1,
+      "title": "1. Episode 1",
+      "video": "https://storages.sokuja.id/2025-fall/mikatagayowa/SOKUJA.NET-MYHMT-1.480p.mp4"
+    }
+  ]
+}
