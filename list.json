@@ -127,5 +127,15 @@
         "poster": "https://raw.githubusercontent.com/ikyStarboy/Api-imgbb/refs/heads/main/umaS3/Uma_Musume__Pretty_Derby_Season_3.jpg",
         "episodes_url": "https://raw.githubusercontent.com/ikyStarboy/Api-imgbb/refs/heads/main/umaS3/uma.json",
         "jadwal": "Selesai Tayang"
+    },
+    {
+        "id": "haikyumovie",
+        "title": "Haikyuu!! Movie: Gomisuteba no Kessen",
+        "status": "Completed",
+        "synopsis": "kenma kozume tidak pernah menganggap bola voli menyenangkan itu hanya keahliannya namun saat tim nekoma lolos ke spring nationals dan harus menghadapi rival lama karasuno ia harus menganalisis tim yang tangguh dan memimpin nekoma menuju kemenangan ia juga akan berhadapan dengan temannya shouyou hinata pemain karasuno yang pendek namun hebat meski karasuno belum pernah menang melawan nekoma kenma yang biasanya acuh mulai merasakan semangat saat pertandingan resmi dimulai untuk melaju ke semifinal karasuno harus menembus strategi brilian kenma dan mengalahkan nekoma di kandangnya sendiri",
+        "poster": "https://raw.githubusercontent.com/ikyStarboy/Api-imgbb/refs/heads/main/haykyumovie/SOKUJA-Haikyuu_Movie__Gomisuteba_no_Kessen-3.jpg",
+        "episodes_url": "https://raw.githubusercontent.com/ikyStarboy/Api-imgbb/refs/heads/main/haykyumovie/hykyu.json",
+        "jadwal": "Selesai Tayang",
+        "type": "movie"
     }
 ]
