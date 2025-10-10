@@ -118,5 +118,14 @@
         "poster": "https://raw.githubusercontent.com/ikyStarboy/Api-imgbb/refs/heads/main/chitose-kun%20wa%20ramune/Chitose-kun_wa_Ramune_Bin_no_Naka-4.jpg",
         "episodes_url": "https://raw.githubusercontent.com/ikyStarboy/Api-imgbb/refs/heads/main/chitose-kun%20wa%20ramune/chitose.json",
         "jadwal": "Setiap Selasa, 18:30 WIB"
+    },
+    {
+        "id": "umas3",
+        "title": "Uma Musume: Pretty Derby Season 3",
+        "status": "Completed",
+        "synopsis": "Musim ke tiga dari Uma Musume: Pretty Derby",
+        "poster": "https://raw.githubusercontent.com/ikyStarboy/Api-imgbb/refs/heads/main/umaS3/Uma_Musume__Pretty_Derby_Season_3.jpg",
+        "episodes_url": "https://raw.githubusercontent.com/ikyStarboy/Api-imgbb/refs/heads/main/umaS3/uma.json",
+        "jadwal": "Selesai Tayang"
     }
 ]
