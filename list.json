@@ -146,5 +146,14 @@
         "poster": "https://raw.githubusercontent.com/ikyStarboy/Api-imgbb/refs/heads/main/bokunoherofinalseason/Boku_no_Hero_Academia__Final_Season-3.jpg",
         "episodes_url": "https://raw.githubusercontent.com/ikyStarboy/Api-imgbb/refs/heads/main/bokunoherofinalseason/bokunoherofinal.json",
         "jadwal": "Setiap Sabtu, 17:30 WIB"
+    },
+    {
+        "id": "kekkonyubiwaS2",
+        "title": "Kekkon Yubiwa Monogatari Season 2",
+        "status": "OnGoing",
+        "synopsis": "musim kedua kekkon yubiwa monogatari melanjutkan petualangan satou haruto siswa sma yang terlempar ke dunia lain saat mengejar sahabatnya hime putri dari dunia paralel satou menerima gelang cahaya dan menjadi raja gelang dengan tugas mengumpulkan cincin elemen dari para putri untuk melindungi dunia dari raja abyss di musim ini konflik makin besar pertarungan lebih berat dan hubungan antar karakter semakin rumit musim kedua tayang pada 4 oktober 2025",
+        "poster": "https://raw.githubusercontent.com/ikyStarboy/Api-imgbb/refs/heads/main/kekonyubiwamonogatari/Kekkon_Yubiwa_Monogatari_II__.jpg",
+        "episodes_url": "https://raw.githubusercontent.com/ikyStarboy/Api-imgbb/refs/heads/main/kekonyubiwamonogatari/kekkonS2.json",
+        "jadwal": "Setiap Sabtu, 19:40 WIB"
     }
 ]
