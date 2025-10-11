@@ -137,5 +137,14 @@
         "episodes_url": "https://raw.githubusercontent.com/ikyStarboy/Api-imgbb/refs/heads/main/haykyumovie/hykyu.json",
         "jadwal": "Selesai Tayang",
         "type": "movie"
+    },
+    {
+        "id": "bokunoherofinalseason",
+        "title": "Boku no Hero Academia: Final Season",
+        "status": "OnGoing",
+        "synopsis": "musim kedelapan my hero academia menjadi penutup besar penuh drama emosi dan aksi menampilkan konflik antar generasi serta pengorbanan heroik ini adalah akhir yang menentukan bagi izuku midoriya dan para hero dengan suasana perpisahan yang epik dan memuaskan",
+        "poster": "https://raw.githubusercontent.com/ikyStarboy/Api-imgbb/refs/heads/main/bokunoherofinalseason/Boku_no_Hero_Academia__Final_Season-3.jpg",
+        "episodes_url": "https://raw.githubusercontent.com/ikyStarboy/Api-imgbb/refs/heads/main/bokunoherofinalseason/bokunoherofinal.json",
+        "jadwal": "Setiap Sabtu, 17:30 WIB"
     }
 ]
