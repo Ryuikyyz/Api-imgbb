@@ -201,5 +201,14 @@
   "episodes_url": "https://raw.githubusercontent.com/ikyStarboy/Api-imgbb/refs/heads/main/dpyxfamily/spyCodeblue.json",
   "jadwal": "Selesai Tayang",
   "type": "movie"
-}
+},
+{
+        "id": "chantosuenai",
+        "title": "Chanto Suenai Kyuuketsuki-chan",
+        "status": "OnGoing",
+        "synopsis": "luna vampir imut yang kesulitan menyedot darah berusaha hidup seperti manusia biasa sampai rahasianya diketahui oleh teman sekelasnya tatsuta dari hubungan canggung mereka tumbuh kisah hangat penuh komedi romansa dan penerimaan diri",
+        "poster": "https://raw.githubusercontent.com/ikyStarboy/Api-imgbb/refs/heads/main/chanto%20suenai/Chanto_Suenai_Kyuuketsuki-2.jpg",
+        "episodes_url": "https://raw.githubusercontent.com/ikyStarboy/Api-imgbb/refs/heads/main/chanto%20suenai/chanto.json",
+        "jadwal": "Setiap Minggu, 20:50 WIB"
+    }
 ]
