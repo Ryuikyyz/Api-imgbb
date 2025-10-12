@@ -164,5 +164,14 @@
         "poster": "https://raw.githubusercontent.com/ikyStarboy/Api-imgbb/refs/heads/main/mushoku%20tendei/1661940270-2763-117776%20(1).jpg",
         "episodes_url": "https://raw.githubusercontent.com/ikyStarboy/Api-imgbb/refs/heads/main/mushoku%20tendei/mushokuS1.json",
         "jadwal": "Selesai Tayang"
+    },
+    {
+        "id": "jujutsukaisenS1",
+        "title": "Jujutsu Kaisen",
+        "status": "Completed",
+        "synopsis": "yuuji itadori siswa sma yang tergabung dalam klub ilmu gaib menjalani hidup santai hingga ia tanpa sadar menemukan benda terkutuk setelah menelannya ia masuk ke dunia kutukan makhluk yang lahir dari kebencian manusia benda itu ternyata jari iblis sukuna ryoumen raja kutukan yuuji merasakan kekuatan barunya dan bahaya dunia kutukan kemudian ia bergabung dengan sekolah tinggi teknik jujutsu tokyo memulai perjalanan sebagai penyihir jujutsu tanpa jalan untuk kembali",
+        "poster": "https://raw.githubusercontent.com/ikyStarboy/Api-imgbb/refs/heads/main/jujurkukaisen/1661600350-1974-109222.jpg",
+        "episodes_url": "https://raw.githubusercontent.com/ikyStarboy/Api-imgbb/refs/heads/main/jujurkukaisen/jujutsuS1.json",
+        "jadwal": "Selesai Tayang"
     }
 ]
