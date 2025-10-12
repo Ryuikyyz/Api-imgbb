@@ -191,5 +191,15 @@
   "poster": "https://raw.githubusercontent.com/ikyStarboy/Api-imgbb/refs/heads/main/dpyxfamily/sxf2.jpeg",
   "episodes_url": "https://raw.githubusercontent.com/ikyStarboy/Api-imgbb/refs/heads/main/dpyxfamily/SpyPt2S1.json",
   "jadwal": "Selesai Tayang"
+},
+{
+  "id": "Spyxfamilycodewhite",
+  "title": "Spy X Family Movie: Code White",
+  "status": "Completed",
+  "synopsis": "loid forger mata mata elit mendapat peringatan bahwa misinya operasi strix bisa dicabut untuk mempertahankannya ia harus membuat kemajuan dengan membantu anya meraih bintang stella agar menjadi cendekiawan kekaisaran di akademi eden setelah tahu ada kontes memasak yang memberi hadiah bintang stella loid meneliti makanan favorit juri dan membawa keluarganya ke wilayah frigis demi mencicipi remere asli namun perjalanan mereka berubah berbahaya saat keluarga forger terseret dalam rencana jahat yang bisa memicu perang antara ostania dan westalis",
+  "poster": "https://raw.githubusercontent.com/ikyStarboy/Api-imgbb/refs/heads/main/dpyxfamily/SOKUJA-Spy_x_Family_Movie__Code__White-6.jpg",
+  "episodes_url": "https://raw.githubusercontent.com/ikyStarboy/Api-imgbb/refs/heads/main/dpyxfamily/spyCodeblue.json",
+  "jadwal": "Selesai Tayang",
+  "type": "movie"
 }
 ]
