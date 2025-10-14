@@ -4,8 +4,13 @@
   "episodes": [
     {
       "id": 1,
-      "title": "1. Teman Baru Saya Tidak Masuk Akal",
+      "title": "1. Episode 1",
       "video": "https://storages.sokuja.id/2025-fall/tondemo-s2/SOKUJA.NET-TNDM.S2-1.480p.mp4"
+    },
+    {
+      "id": 2,
+      "title": "2. Episode 2",
+      "video": "https://storages.sokuja.id/2025-fall/tondemo-s2/SOKUJA.NET-TNDM.S2-2.480p.mp4"
     }
   ]
 }
