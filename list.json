@@ -273,5 +273,14 @@
         "poster": "https://raw.githubusercontent.com/ikyStarboy/Api-imgbb/refs/heads/main/solo%20leveling/SOKUJA-Ore_dake_Level_Up_na_Ken_Season_2__Arise_from_the_Shadow.jpg",
         "episodes_url": "https://raw.githubusercontent.com/ikyStarboy/Api-imgbb/refs/heads/main/solo%20leveling/soloS2.json",
         "jadwal": "Selesai Tayang"
+    },
+    {
+        "id": "bc",
+        "title": "Black Clover",
+        "status": "Completed",
+        "synopsis": "asta dan yuno ditinggalkan di gereja yang sama dan tumbuh bersama mereka bercita cita menjadi raja penyihir penyihir terkuat di kerajaan yuno memiliki sihir luar biasa sedangkan asta tidak bisa menggunakan sihir sama sekali dan berlatih keras secara fisik saat berusia lima belas tahun yuno mendapat grimoire berdaun empat sementara asta tidak mendapat apa pun hingga ia bangkit melawan lebuty yang menyerang yuno dalam keputusasaan asta membangkitkan grimoire berdaun lima semanggi hitam yang memberinya kekuatan besar setelah itu keduanya berangkat mengejar impian yang sama menjadi raja penyihir",
+        "poster": "https://raw.githubusercontent.com/ikyStarboy/Api-imgbb/refs/heads/main/bc/sokuja-black-clover.jpg",
+        "episodes_url": "https://raw.githubusercontent.com/ikyStarboy/Api-imgbb/refs/heads/main/bc/bc.json",
+        "jadwal": "Selesai Tayang"
     }
 ]
