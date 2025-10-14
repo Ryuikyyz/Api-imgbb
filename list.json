@@ -282,5 +282,14 @@
         "poster": "https://raw.githubusercontent.com/ikyStarboy/Api-imgbb/refs/heads/main/bc/sokuja-black-clover.jpg",
         "episodes_url": "https://raw.githubusercontent.com/ikyStarboy/Api-imgbb/refs/heads/main/bc/bc.json",
         "jadwal": "Selesai Tayang"
+    },
+    {
+        "id": "3nenS1",
+        "title": "3-nen Z-gumi Ginpachi-sensei",
+        "status": "OnGoing",
+        "synopsis": "anime spin off dari gintama ini diadaptasi dari light novel 3 nen z gumi ginpachi sensei yang menampilkan gintoki sakata sebagai guru kelas 3 z berlatar di dunia gintama yang penuh parodi humor absurd dan referensi budaya pop anime ini diproduksi oleh bandai namco pictures dan dijadwalkan tayang di tv tokyo pada oktober 2025",
+        "poster": "https://raw.githubusercontent.com/ikyStarboy/Api-imgbb/refs/heads/main/3-nen%20Z-gumi/3-nen_Z-gumi_Ginpachi-sensei-.jpg",
+        "episodes_url": "https://raw.githubusercontent.com/ikyStarboy/Api-imgbb/refs/heads/main/3-nen%20Z-gumi/3-nen.json",
+        "jadwal": "Setiap Senin, 23:20 WIB"
     }
 ]
