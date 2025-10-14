@@ -219,5 +219,14 @@
         "poster": "https://raw.githubusercontent.com/ikyStarboy/Api-imgbb/refs/heads/main/my%20gift%20level%209999/Shinjiteita_Nakama-tachi.jpg",
         "episodes_url": "https://raw.githubusercontent.com/ikyStarboy/Api-imgbb/refs/heads/main/my%20gift%20level%209999/mygift.json",
         "jadwal": "Setiap Jumat, 00:00 WIB"
+    },
+    {
+        "id": "kagenoS1",
+        "title": "Kage no Jitsuryokusha",
+        "status": "Completed",
+        "synopsis": "cid kagenou tidak ingin jadi pahlawan atau penjahat ia ingin menjadi dalang di balik segalanya dalam hidup sebelumnya di jepang ia gagal mencapai itu tapi setelah terlahir di dunia sihir ia mulai mewujudkannya berpura pura sebagai orang biasa cid membentuk organisasi shadow garden yang awalnya palsu untuk melawan kultus diabolos namun tanpa disadari kultus itu benar benar ada dan cid justru memimpin pertempuran nyata dari balik bayangan",
+        "poster": "https://raw.githubusercontent.com/ikyStarboy/Api-imgbb/refs/heads/main/kageno/sokuja-kage-no-jitsuryokusha-naritakute.jpg",
+        "episodes_url": "https://raw.githubusercontent.com/ikyStarboy/Api-imgbb/refs/heads/main/kageno/kageS1.json",
+        "jadwal": "Selesai Tayang"
     }
 ]
