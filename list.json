@@ -237,5 +237,14 @@
         "poster": "https://raw.githubusercontent.com/ikyStarboy/Api-imgbb/refs/heads/main/kageno/sokuja.net_.shadow.garden.s2-768x1084.jpg",
         "episodes_url": "https://raw.githubusercontent.com/ikyStarboy/Api-imgbb/refs/heads/main/kageno/KageS2.json",
         "jadwal": "Selesai Tayang"
+    },
+    {
+        "id": "shingekiS1",
+        "title": "Shingeki no Kyojin",
+        "status": "Completed",
+        "synopsis": "berabad abad lalu manusia hampir punah karena titan makhluk humanoid pemakan manusia yang membunuh demi kesenangan umat manusia bertahan dengan bersembunyi di balik tembok raksasa selama seratus tahun kedamaian berakhir saat titan kolosal menembus tembok luar eren yeager yang kehilangan segalanya bersumpah memusnahkan para titan ia bergabung dengan survey corps bersama mikasa ackerman dan armin arlert berjuang melawan titan dan mencari cara untuk mengakhiri ancaman sebelum tembok terakhir runtuh",
+        "poster": "https://raw.githubusercontent.com/ikyStarboy/Api-imgbb/refs/heads/main/Shingekinokyoukin/sokuja-shingeki-no-kyojin-s1-scaled.webp",
+        "episodes_url": "https://raw.githubusercontent.com/ikyStarboy/Api-imgbb/refs/heads/main/Shingekinokyoukin/ShingekiS1.json",
+        "jadwal": "Selesai Tayang"
     }
 ]
