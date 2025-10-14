@@ -264,5 +264,14 @@
         "poster": "https://raw.githubusercontent.com/ikyStarboy/Api-imgbb/refs/heads/main/solo%20leveling/sokuja-solo-leveling.jpg",
         "episodes_url": "https://raw.githubusercontent.com/ikyStarboy/Api-imgbb/refs/heads/main/solo%20leveling/soloS1.json",
         "jadwal": "Selesai Tayang"
+    },
+    {
+        "id": "soloLvlS2",
+        "title": "Ore Dake Level Up na Ken: solo leveling season 2",
+        "status": "Completed",
+        "synopsis": "musim ke 2 dari ore dake level up na ken",
+        "poster": "Ore_dake_Level_Up_na_Ken_Season_2__Arise_from_the_Shadow.jpg",
+        "episodes_url": "https://raw.githubusercontent.com/ikyStarboy/Api-imgbb/refs/heads/main/solo%20leveling/soloS2.json",
+        "jadwal": "Selesai Tayang"
     }
 ]
