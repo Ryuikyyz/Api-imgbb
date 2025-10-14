@@ -1,0 +1,129 @@
+{
+  "episodes": [
+    {
+      "id": 1,
+      "title": "1. Episode 1",
+      "video": "https://storages.sokuja.id/video2/SNK/SOKUJA_SnK--01.mp4"
+    },
+    {
+      "id": 2,
+      "title": "2. Episode 2",
+      "video": "https://storages.sokuja.id/video2/SNK/SOKUJA_SnK--02.mp4"
+    },
+    {
+      "id": 3,
+      "title": "3. Episode 3",
+      "video": "https://storages.sokuja.id/video2/SNK/SOKUJA_SnK--03.mp4"
+    },
+    {
+      "id": 4,
+      "title": "4. Episode 4",
+      "video": "https://storages.sokuja.id/video2/SNK/SOKUJA_SnK--04.mp4"
+    },
+    {
+      "id": 5,
+      "title": "5. Episode 5",
+      "video": "https://storages.sokuja.id/video2/SNK/SOKUJA_SnK--05.mp4"
+    },
+    {
+      "id": 6,
+      "title": "6. Episode 6",
+      "video": "https://storages.sokuja.id/video2/SNK/SOKUJA_SnK--06.mp4"
+    },
+    {
+      "id": 7,
+      "title": "7. Episode 7",
+      "video": "https://storages.sokuja.id/video2/SNK/SOKUJA_SnK--07.mp4"
+    },
+    {
+      "id": 8,
+      "title": "8. Episode 8",
+      "video": "https://storages.sokuja.id/video2/SNK/SOKUJA_SnK--08.mp4"
+    },
+    {
+      "id": 9,
+      "title": "9. Episode 9",
+      "video": "https://storages.sokuja.id/video2/SNK/SOKUJA_SnK--09.mp4"
+    },
+    {
+      "id": 10,
+      "title": "10. Episode 10",
+      "video": "https://storages.sokuja.id/video2/SNK/SOKUJA_SnK--10.mp4"
+    },
+    {
+      "id": 11,
+      "title": "11. Episode 11",
+      "video": "https://storages.sokuja.id/video2/SNK/SOKUJA_SnK--11.mp4"
+    },
+    {
+      "id": 12,
+      "title": "12. Episode 12",
+      "video": "https://storages.sokuja.id/video2/SNK/SOKUJA_SnK--12.mp4"
+    },
+    {
+      "id": 13,
+      "title": "13. Episode 13",
+      "video": "https://storages.sokuja.id/video2/SNK/SOKUJA_SnK--13.mp4"
+    },
+    {
+      "id": 14,
+      "title": "14. Episode 14",
+      "video": "https://storages.sokuja.id/video2/SNK/SOKUJA_SnK--14.mp4"
+    },
+    {
+      "id": 15,
+      "title": "15. Episode 15",
+      "video": "https://storages.sokuja.id/video2/SNK/SOKUJA_SnK--15.mp4"
+    },
+    {
+      "id": 16,
+      "title": "16. Episode 16",
+      "video": "https://storages.sokuja.id/video2/SNK/SOKUJA_SnK--16.mp4"
+    },
+    {
+      "id": 17,
+      "title": "17. Episode 17",
+      "video": "https://storages.sokuja.id/video2/SNK/SOKUJA_SnK--17.mp4"
+    },
+    {
+      "id": 18,
+      "title": "18. Episode 18",
+      "video": "https://storages.sokuja.id/video2/SNK/SOKUJA_SnK--18.mp4"
+    },
+    {
+      "id": 19,
+      "title": "19. Episode 19",
+      "video": "https://storages.sokuja.id/video2/SNK/SOKUJA_SnK--19.mp4"
+    },
+    {
+      "id": 20,
+      "title": "20. Episode 20",
+      "video": "https://storages.sokuja.id/video2/SNK/SOKUJA_SnK--20.mp4"
+    },
+    {
+      "id": 21,
+      "title": "21. Episode 21",
+      "video": "https://storages.sokuja.id/video2/SNK/SOKUJA_SnK--21.mp4"
+    },
+    {
+      "id": 22,
+      "title": "22. Episode 22",
+      "video": "https://storages.sokuja.id/video2/SNK/SOKUJA_SnK--22.mp4"
+    },
+    {
+      "id": 23,
+      "title": "23. Episode 23",
+      "video": "https://storages.sokuja.id/video2/SNK/SOKUJA_SnK--23.mp4"
+    },
+    {
+      "id": 24,
+      "title": "24. Episode 24",
+      "video": "https://storages.sokuja.id/video2/SNK/SOKUJA_SnK--24.mp4"
+    },
+    {
+      "id": 25,
+      "title": "25. Episode 25",
+      "video": "https://storages.sokuja.id/video2/SNK/SOKUJA_SnK--25_End.mp4"
+    }
+  ]
+}
