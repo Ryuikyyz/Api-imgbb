@@ -246,5 +246,14 @@
         "poster": "https://raw.githubusercontent.com/ikyStarboy/Api-imgbb/refs/heads/main/Shingekinokyoukin/sokuja-shingeki-no-kyojin-s1-scaled.webp",
         "episodes_url": "https://raw.githubusercontent.com/ikyStarboy/Api-imgbb/refs/heads/main/Shingekinokyoukin/ShingekiS1.json",
         "jadwal": "Selesai Tayang"
+    },
+    {
+        "id": "ansatsushaS1",
+        "title": "Ansatsusha de Aru Ore no Status ga Yuusha yori mo Akiraka ni Tsuyoi no da ga",
+        "status": "OnGoing",
+        "synopsis": "akira oda siswa sma yang dipanggil ke dunia morigan bersama teman temannya untuk melawan raja iblis justru mendapat kelas assassin yang dianggap rendah dibanding hero namun kekuatannya jauh melampaui para hero dengan kemampuan membunuh dari bayangan ia mulai curiga pada raja dan putri yang memanggilnya setelah difitnah atas kematian komandan saran mithray akira melarikan diri dan bertemu amelia rose quartz seorang elf petualang bersama mereka mengungkap konspirasi kerajaan sambil menyembunyikan kekuatan dan identitas aslinya",
+        "poster": "https://raw.githubusercontent.com/ikyStarboy/Api-imgbb/refs/heads/main/ansatsusha%20de%20aru%20ore%20no%20status/Ansatsusha_de_Aru_Ore_no_Status_ga_Yuusha_yori_mo_Akiraka_ni_Tsuyoi_no_da_ga_.jpg",
+        "episodes_url": "https://raw.githubusercontent.com/ikyStarboy/Api-imgbb/refs/heads/main/ansatsusha%20de%20aru%20ore%20no%20status/anatsushas1.json",
+        "jadwal": "Selesai Tayang"
     }
 ]
