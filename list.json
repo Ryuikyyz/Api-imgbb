@@ -228,5 +228,14 @@
         "poster": "https://raw.githubusercontent.com/ikyStarboy/Api-imgbb/refs/heads/main/kageno/sokuja-kage-no-jitsuryokusha-naritakute.jpg",
         "episodes_url": "https://raw.githubusercontent.com/ikyStarboy/Api-imgbb/refs/heads/main/kageno/kageS1.json",
         "jadwal": "Selesai Tayang"
+    },
+    {
+        "id": "kagenoS2",
+        "title": "Kage no Jitsuryokusha Season 2",
+        "status": "Completed",
+        "synopsis": "Musim Ke 2 dari Kage no Jitsuryokusha",
+        "poster": "https://raw.githubusercontent.com/ikyStarboy/Api-imgbb/refs/heads/main/kageno/sokuja.net_.shadow.garden.s2-768x1084.jpg",
+        "episodes_url": "https://raw.githubusercontent.com/ikyStarboy/Api-imgbb/refs/heads/main/kageno/KageS2.json",
+        "jadwal": "Selesai Tayang"
     }
 ]
