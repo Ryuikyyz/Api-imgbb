@@ -1,0 +1,854 @@
+{
+"episodes": [
+{
+"id": 1,
+"title": "1. Episode 1",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-01_480p.mp4"
+},
+{
+"id": 2,
+"title": "2. Episode 2",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-02_480p.mp4"
+},
+{
+"id": 3,
+"title": "3. Episode 3",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-03_480p.mp4"
+},
+{
+"id": 4,
+"title": "4. Episode 4",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-04_480p.mp4"
+},
+{
+"id": 5,
+"title": "5. Episode 5",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-05_480p.mp4"
+},
+{
+"id": 6,
+"title": "6. Episode 6",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-06_480p.mp4"
+},
+{
+"id": 7,
+"title": "7. Episode 7",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-07_480p.mp4"
+},
+{
+"id": 8,
+"title": "8. Episode 8",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-08_480p.mp4"
+},
+{
+"id": 9,
+"title": "9. Episode 9",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-09_480p.mp4"
+},
+{
+"id": 10,
+"title": "10. Episode 10",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-10_480p.mp4"
+},
+{
+"id": 11,
+"title": "11. Episode 11",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-11_480p.mp4"
+},
+{
+"id": 12,
+"title": "12. Episode 12",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-12_480p.mp4"
+},
+{
+"id": 13,
+"title": "13. Episode 13",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-13_480p.mp4"
+},
+{
+"id": 14,
+"title": "14. Episode 14",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-14_480p.mp4"
+},
+{
+"id": 15,
+"title": "15. Episode 15",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-15_480p.mp4"
+},
+{
+"id": 16,
+"title": "16. Episode 16",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-16_480p.mp4"
+},
+{
+"id": 17,
+"title": "17. Episode 17",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-17_480p.mp4"
+},
+{
+"id": 18,
+"title": "18. Episode 18",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-18_480p.mp4"
+},
+{
+"id": 19,
+"title": "19. Episode 19",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-19_480p.mp4"
+},
+{
+"id": 20,
+"title": "20. Episode 20",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-20_480p.mp4"
+},
+{
+"id": 21,
+"title": "21. Episode 21",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-21_480p.mp4"
+},
+{
+"id": 22,
+"title": "22. Episode 22",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-22_480p.mp4"
+},
+{
+"id": 23,
+"title": "23. Episode 23",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-23_480p.mp4"
+},
+{
+"id": 24,
+"title": "24. Episode 24",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-24_480p.mp4"
+},
+{
+"id": 25,
+"title": "25. Episode 25",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-25_480p.mp4"
+},
+{
+"id": 26,
+"title": "26. Episode 26",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-26_480p.mp4"
+},
+{
+"id": 27,
+"title": "27. Episode 27",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-27_480p.mp4"
+},
+{
+"id": 28,
+"title": "28. Episode 28",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-28_480p.mp4"
+},
+{
+"id": 29,
+"title": "29. Episode 29",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-29_480p.mp4"
+},
+{
+"id": 30,
+"title": "30. Episode 30",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-30_480p.mp4"
+},
+{
+"id": 31,
+"title": "31. Episode 31",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-31_480p.mp4"
+},
+{
+"id": 32,
+"title": "32. Episode 32",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-32_480p.mp4"
+},
+{
+"id": 33,
+"title": "33. Episode 33",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-33_480p.mp4"
+},
+{
+"id": 34,
+"title": "34. Episode 34",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-34_480p.mp4"
+},
+{
+"id": 35,
+"title": "35. Episode 35",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-35_480p.mp4"
+},
+{
+"id": 36,
+"title": "36. Episode 36",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-36_480p.mp4"
+},
+{
+"id": 37,
+"title": "37. Episode 37",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-37_480p.mp4"
+},
+{
+"id": 38,
+"title": "38. Episode 38",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-38_480p.mp4"
+},
+{
+"id": 39,
+"title": "39. Episode 39",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-39_480p.mp4"
+},
+{
+"id": 40,
+"title": "40. Episode 40",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-40_480p.mp4"
+},
+{
+"id": 41,
+"title": "41. Episode 41",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-41_480p.mp4"
+},
+{
+"id": 42,
+"title": "42. Episode 42",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-42_480p.mp4"
+},
+{
+"id": 43,
+"title": "43. Episode 43",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-43_480p.mp4"
+},
+{
+"id": 44,
+"title": "44. Episode 44",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-44_480p.mp4"
+},
+{
+"id": 45,
+"title": "45. Episode 45",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-45_480p.mp4"
+},
+{
+"id": 46,
+"title": "46. Episode 46",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-46_480p.mp4"
+},
+{
+"id": 47,
+"title": "47. Episode 47",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-47_480p.mp4"
+},
+{
+"id": 48,
+"title": "48. Episode 48",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-48_480p.mp4"
+},
+{
+"id": 49,
+"title": "49. Episode 49",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-49_480p.mp4"
+},
+{
+"id": 50,
+"title": "50. Episode 50",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-50_480p.mp4"
+},
+{
+"id": 51,
+"title": "51. Episode 51",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-51_480p.mp4"
+},
+{
+"id": 52,
+"title": "52. Episode 52",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-52_480p.mp4"
+},
+{
+"id": 53,
+"title": "53. Episode 53",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-53_480p.mp4"
+},
+{
+"id": 54,
+"title": "54. Episode 54",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-54_480p.mp4"
+},
+{
+"id": 55,
+"title": "55. Episode 55",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-55_480p.mp4"
+},
+{
+"id": 56,
+"title": "56. Episode 56",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-56_480p.mp4"
+},
+{
+"id": 57,
+"title": "57. Episode 57",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-57_480p.mp4"
+},
+{
+"id": 58,
+"title": "58. Episode 58",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-58_480p.mp4"
+},
+{
+"id": 59,
+"title": "59. Episode 59",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-59_480p.mp4"
+},
+{
+"id": 60,
+"title": "60. Episode 60",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-60_480p.mp4"
+},
+{
+"id": 61,
+"title": "61. Episode 61",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-61_480p.mp4"
+},
+{
+"id": 62,
+"title": "62. Episode 62",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-62_480p.mp4"
+},
+{
+"id": 63,
+"title": "63. Episode 63",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-63_480p.mp4"
+},
+{
+"id": 64,
+"title": "64. Episode 64",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-64_480p.mp4"
+},
+{
+"id": 65,
+"title": "65. Episode 65",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-65_480p.mp4"
+},
+{
+"id": 66,
+"title": "66. Episode 66",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-66_480p.mp4"
+},
+{
+"id": 67,
+"title": "67. Episode 67",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-67_480p.mp4"
+},
+{
+"id": 68,
+"title": "68. Episode 68",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-68_480p.mp4"
+},
+{
+"id": 69,
+"title": "69. Episode 69",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-69_480p.mp4"
+},
+{
+"id": 70,
+"title": "70. Episode 70",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-70_480p.mp4"
+},
+{
+"id": 71,
+"title": "71. Episode 71",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-71_480p.mp4"
+},
+{
+"id": 72,
+"title": "72. Episode 72",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-72_480p.mp4"
+},
+{
+"id": 73,
+"title": "73. Episode 73",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-73_480p.mp4"
+},
+{
+"id": 74,
+"title": "74. Episode 74",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-74_480p.mp4"
+},
+{
+"id": 75,
+"title": "75. Episode 75",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-75_480p.mp4"
+},
+{
+"id": 76,
+"title": "76. Episode 76",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-76_480p.mp4"
+},
+{
+"id": 77,
+"title": "77. Episode 77",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-77_480p.mp4"
+},
+{
+"id": 78,
+"title": "78. Episode 78",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-78_480p.mp4"
+},
+{
+"id": 79,
+"title": "79. Episode 79",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-79_480p.mp4"
+},
+{
+"id": 80,
+"title": "80. Episode 80",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-80_480p.mp4"
+},
+{
+"id": 81,
+"title": "81. Episode 81",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-81_480p.mp4"
+},
+{
+"id": 82,
+"title": "82. Episode 82",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-82_480p.mp4"
+},
+{
+"id": 83,
+"title": "83. Episode 83",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-83_480p.mp4"
+},
+{
+"id": 84,
+"title": "84. Episode 84",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-84_480p.mp4"
+},
+{
+"id": 85,
+"title": "85. Episode 85",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-85_480p.mp4"
+},
+{
+"id": 86,
+"title": "86. Episode 86",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-86_480p.mp4"
+},
+{
+"id": 87,
+"title": "87. Episode 87",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-87_480p.mp4"
+},
+{
+"id": 88,
+"title": "88. Episode 88",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-88_480p.mp4"
+},
+{
+"id": 89,
+"title": "89. Episode 89",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-89_480p.mp4"
+},
+{
+"id": 90,
+"title": "90. Episode 90",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-90_480p.mp4"
+},
+{
+"id": 91,
+"title": "91. Episode 91",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-91_480p.mp4"
+},
+{
+"id": 92,
+"title": "92. Episode 92",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-92_480p.mp4"
+},
+{
+"id": 93,
+"title": "93. Episode 93",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-93_480p.mp4"
+},
+{
+"id": 94,
+"title": "94. Episode 94",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-94_480p.mp4"
+},
+{
+"id": 95,
+"title": "95. Episode 95",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-95_480p.mp4"
+},
+{
+"id": 96,
+"title": "96. Episode 96",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-96_480p.mp4"
+},
+{
+"id": 97,
+"title": "97. Episode 97",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-97_480p.mp4"
+},
+{
+"id": 98,
+"title": "98. Episode 98",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-98_480p.mp4"
+},
+{
+"id": 99,
+"title": "99. Episode 99",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-99_480p.mp4"
+},
+{
+"id": 100,
+"title": "100. Episode 100",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-100_480p.mp4"
+},
+{
+"id": 101,
+"title": "101. Episode 101",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-101_480p.mp4"
+},
+{
+"id": 102,
+"title": "102. Episode 102",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-102_480p.mp4"
+},
+{
+"id": 103,
+"title": "103. Episode 103",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-103_480p.mp4"
+},
+{
+"id": 104,
+"title": "104. Episode 104",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-104_480p.mp4"
+},
+{
+"id": 105,
+"title": "105. Episode 105",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-105_480p.mp4"
+},
+{
+"id": 106,
+"title": "106. Episode 106",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-106_480p.mp4"
+},
+{
+"id": 107,
+"title": "107. Episode 107",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-107_480p.mp4"
+},
+{
+"id": 108,
+"title": "108. Episode 108",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-108_480p.mp4"
+},
+{
+"id": 109,
+"title": "109. Episode 109",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-109_480p.mp4"
+},
+{
+"id": 110,
+"title": "110. Episode 110",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-110_480p.mp4"
+},
+{
+"id": 111,
+"title": "111. Episode 111",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-111_480p.mp4"
+},
+{
+"id": 112,
+"title": "112. Episode 112",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-112_480p.mp4"
+},
+{
+"id": 113,
+"title": "113. Episode 113",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-113_480p.mp4"
+},
+{
+"id": 114,
+"title": "114. Episode 114",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-114_480p.mp4"
+},
+{
+"id": 115,
+"title": "115. Episode 115",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-115_480p.mp4"
+},
+{
+"id": 116,
+"title": "116. Episode 116",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-116_480p.mp4"
+},
+{
+"id": 117,
+"title": "117. Episode 117",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-117_480p.mp4"
+},
+{
+"id": 118,
+"title": "118. Episode 118",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-118_480p.mp4"
+},
+{
+"id": 119,
+"title": "119. Episode 119",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-119_480p.mp4"
+},
+{
+"id": 120,
+"title": "120. Episode 120",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-120_480p.mp4"
+},
+{
+"id": 121,
+"title": "121. Episode 121",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-121_480p.mp4"
+},
+{
+"id": 122,
+"title": "122. Episode 122",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-122_480p.mp4"
+},
+{
+"id": 123,
+"title": "123. Episode 123",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-123_480p.mp4"
+},
+{
+"id": 124,
+"title": "124. Episode 124",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-124_480p.mp4"
+},
+{
+"id": 125,
+"title": "125. Episode 125",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-125_480p.mp4"
+},
+{
+"id": 126,
+"title": "126. Episode 126",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-126_480p.mp4"
+},
+{
+"id": 127,
+"title": "127. Episode 127",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-127_480p.mp4"
+},
+{
+"id": 128,
+"title": "128. Episode 128",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-128_480p.mp4"
+},
+{
+"id": 129,
+"title": "129. Episode 129",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-129_480p.mp4"
+},
+{
+"id": 130,
+"title": "130. Episode 130",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-130_480p.mp4"
+},
+{
+"id": 131,
+"title": "131. Episode 131",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-131_480p.mp4"
+},
+{
+"id": 132,
+"title": "132. Episode 132",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-132_480p.mp4"
+},
+{
+"id": 133,
+"title": "133. Episode 133",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-133_480p.mp4"
+},
+{
+"id": 134,
+"title": "134. Episode 134",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-134_480p.mp4"
+},
+{
+"id": 135,
+"title": "135. Episode 135",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-135_480p.mp4"
+},
+{
+"id": 136,
+"title": "136. Episode 136",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-136_480p.mp4"
+},
+{
+"id": 137,
+"title": "137. Episode 137",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-137_480p.mp4"
+},
+{
+"id": 138,
+"title": "138. Episode 138",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-138_480p.mp4"
+},
+{
+"id": 139,
+"title": "139. Episode 139",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-139_480p.mp4"
+},
+{
+"id": 140,
+"title": "140. Episode 140",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-140_480p.mp4"
+},
+{
+"id": 141,
+"title": "141. Episode 141",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-141_480p.mp4"
+},
+{
+"id": 142,
+"title": "142. Episode 142",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-142_480p.mp4"
+},
+{
+"id": 143,
+"title": "143. Episode 143",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-143_480p.mp4"
+},
+{
+"id": 144,
+"title": "144. Episode 144",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-144_480p.mp4"
+},
+{
+"id": 145,
+"title": "145. Episode 145",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-145_480p.mp4"
+},
+{
+"id": 146,
+"title": "146. Episode 146",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-146_480p.mp4"
+},
+{
+"id": 147,
+"title": "147. Episode 147",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-147_480p.mp4"
+},
+{
+"id": 148,
+"title": "148. Episode 148",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-148_480p.mp4"
+},
+{
+"id": 149,
+"title": "149. Episode 149",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-149_480p.mp4"
+},
+{
+"id": 150,
+"title": "150. Episode 150",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-150_480p.mp4"
+},
+{
+"id": 151,
+"title": "151. Episode 151",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-151_480p.mp4"
+},
+{
+"id": 152,
+"title": "152. Episode 152",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-152_480p.mp4"
+},
+{
+"id": 153,
+"title": "153. Episode 153",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-153_480p.mp4"
+},
+{
+"id": 154,
+"title": "154. Episode 154",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-154_480p.mp4"
+},
+{
+"id": 155,
+"title": "155. Episode 155",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-155_480p.mp4"
+},
+{
+"id": 156,
+"title": "156. Episode 156",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-156_480p.mp4"
+},
+{
+"id": 157,
+"title": "157. Episode 157",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-157_480p.mp4"
+},
+{
+"id": 158,
+"title": "158. Episode 158",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-158_480p.mp4"
+},
+{
+"id": 159,
+"title": "159. Episode 159",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-159_480p.mp4"
+},
+{
+"id": 160,
+"title": "160. Episode 160",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-160_480p.mp4"
+},
+{
+"id": 161,
+"title": "161. Episode 161",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-161_480p.mp4"
+},
+{
+"id": 162,
+"title": "162. Episode 162",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-162_480p.mp4"
+},
+{
+"id": 163,
+"title": "163. Episode 163",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-163_480p.mp4"
+},
+{
+"id": 164,
+"title": "164. Episode 164",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-164_480p.mp4"
+},
+{
+"id": 165,
+"title": "165. Episode 165",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-165_480p.mp4"
+},
+{
+"id": 166,
+"title": "166. Episode 166",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-166_480p.mp4"
+},
+{
+"id": 167,
+"title": "167. Episode 167",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-167_480p.mp4"
+},
+{
+"id": 168,
+"title": "168. Episode 168",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-168_480p.mp4"
+},
+{
+"id": 169,
+"title": "169. Episode 169",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-169_480p.mp4"
+},
+{
+"id": 170,
+"title": "170. Episode 170",
+"video": "https://storages.sokuja.id/video2/black_clover/SOKUJA_BC-170_480p.mp4"
+}
+]
+}
