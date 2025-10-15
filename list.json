@@ -291,5 +291,14 @@
         "poster": "https://raw.githubusercontent.com/ikyStarboy/Api-imgbb/refs/heads/main/3-nen%20Z-gumi/3-nen_Z-gumi_Ginpachi-sensei-.jpg",
         "episodes_url": "https://raw.githubusercontent.com/ikyStarboy/Api-imgbb/refs/heads/main/3-nen%20Z-gumi/3-nen.json",
         "jadwal": "Setiap Senin, 23:20 WIB"
+    },
+    {
+        "id": "tensuraS1",
+        "title": "Tensei shitara Slime Datta Ken",
+        "status": "Completed",
+        "synopsis": "satoru mikami pegawai kantoran berusia 37 tahun yang hidupnya biasa saja tewas setelah ditikam oleh penyerang acak di jalan saat sekarat ia mendengar suara misterius yang membacakan perintah aneh ketika sadar ia bereinkarnasi sebagai lendir di dunia lain dengan kemampuan melahap dan meniru apa pun di sana ia bertemu naga badai veldora yang disegel 300 tahun lamanya mereka berteman dan veldora memberinya nama rimuru tempest kini rimuru memulai hidup barunya dengan tubuh slime dan kekuatan besar yang perlahan mengubah nasib dunia",
+        "poster": "https://raw.githubusercontent.com/ikyStarboy/Api-imgbb/refs/heads/main/tensura/sokuja-slime-dattaken.jpg",
+        "episodes_url": "https://raw.githubusercontent.com/ikyStarboy/Api-imgbb/refs/heads/main/tensura/tensuraS1.json",
+        "jadwal": "Selesai Tayang"
     }
 ]
