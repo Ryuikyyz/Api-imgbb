@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <title>ZedxPlay</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        /* Fullscreen Reset */
+        html, body {
+            height: 100%;
+            width: 100%;
+            background-color: #0f172a;
+            color: #f1f5f9;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            -webkit-tap-highlight-color: transparent;
+            overscroll-behavior-y: none; /* Mencegah efek bounce scroll */
+        }
+        
+        /* Hide Scrollbar */
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+        .no-scrollbar { -ms-overflow-style: none;  scrollbar-width: none; }
+        
+        /* Safe Area Padding (Biar gak ketutup poni HP) */
+        .safe-top { padding-top: env(safe-area-inset-top, 20px); }
+        
+        .fade-in { animation: fadeIn 0.5s cubic-bezier(0.4, 0, 0.2, 1); }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+
+        .glass-nav {
+            background: rgba(15, 23, 42, 0.95);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border-top: 1px solid rgba(255, 255, 255, 0.05);
+        }
+        
+        .skeleton { background: linear-gradient(90deg, #1e293b 25%, #334155 50%, #1e293b 75%); background-size: 200% 100%; animation: shimmer 1.5s infinite; }
+        @keyframes shimmer { 0% { background-position: 200% 0; } 100% { background-position: -200% 0; } }
+    </style>
+</head>
+<body class="pb-28 antialiased selection:bg-blue-500 selection:text-white">
+
+    <div id="updateModal" class="hidden fixed inset-0 z-[9999] bg-black/90 backdrop-blur-md flex items-center justify-center p-6 fade-in">
+        <div class="bg-[#1e293b] w-full max-w-sm rounded-2xl p-6 border border-yellow-500/50 shadow-2xl text-center">
+            <div class="w-16 h-16 bg-yellow-500/20 rounded-full flex items-center justify-center mx-auto mb-4">
+                <svg class="w-8 h-8 text-yellow-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
+            </div>
+            <h2 class="text-xl font-bold text-white mb-2">Update Tersedia!</h2>
+            <p class="text-xs text-gray-400 mb-4" id="updateChangelog">Versi baru telah tersedia.</p>
+            <div class="bg-black/40 rounded-lg p-3 mb-6 flex justify-between items-center text-xs font-mono">
+                <span class="text-gray-500">Versi Anda: <span id="currentVerTxt" class="text-red-400">...</span></span>
+                <svg class="w-4 h-4 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+                <span class="text-gray-500">Baru: <span id="newVerTxt" class="text-green-400">...</span></span>
+            </div>
+            <a id="updateBtnLink" href="#" class="block w-full bg-yellow-500 hover:bg-yellow-400 text-black font-bold py-3 rounded-xl transition transform active:scale-95">Update Sekarang</a>
+            <button id="skipUpdateBtn" onclick="closeUpdateModal()" class="mt-4 text-gray-500 text-xs hover:text-white hidden">Nanti saja</button>
+        </div>
+    </div>
+
+    <div class="fixed top-0 w-full z-40 bg-[#0f172a] pb-2 px-6 shadow-xl shadow-black/20 transition-all duration-300 safe-top">
+        <div class="flex justify-between items-center mb-3 mt-2">
+            <div><h1 class="text-2xl font-extrabold tracking-tighter text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-500 drop-shadow-sm">ZedxPlay</h1></div>
+            <div class="flex gap-3">
+                <button class="p-2 rounded-full bg-gray-800 text-gray-300 hover:bg-gray-700 transition relative">
+                     <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"></path></svg>
+                     <span class="absolute top-2 right-2.5 w-1.5 h-1.5 bg-red-500 rounded-full border border-gray-800"></span>
+                </button>
+            </div>
+        </div>
+        <div class="relative group mb-2">
+            <div class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none"><svg class="w-5 h-5 text-gray-500 group-focus-within:text-yellow-400 transition" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg></div>
+            <input type="text" id="searchInput" placeholder="Cari anime..." class="w-full bg-[#1e293b] border border-gray-700/50 text-sm text-white rounded-2xl py-3.5 pl-12 pr-4 focus:outline-none focus:border-yellow-500/50 focus:bg-[#1e293b] transition-all placeholder-gray-500 shadow-inner">
+            <div id="searchLoader" class="hidden absolute right-4 top-3.5"><div class="w-5 h-5 border-2 border-yellow-500 border-t-transparent rounded-full animate-spin"></div></div>
+        </div>
+    </div>
+
+    <div class="pt-40 min-h-screen safe-top"> <div id="view-home" class="fade-in">
+            
+            <div id="homeSkeleton" class="px-6 space-y-6 mt-2">
+                <div class="flex gap-2 overflow-hidden">
+                    <div class="w-20 h-8 rounded-full skeleton"></div><div class="w-20 h-8 rounded-full skeleton"></div>
+                </div>
+                <div class="w-full aspect-video rounded-xl skeleton"></div>
+                <div class="flex gap-4">
+                    <div class="w-32 h-48 skeleton rounded-lg"></div><div class="w-32 h-48 skeleton rounded-lg"></div>
+                </div>
+            </div>
+
+            <div id="homeData" class="hidden">
+                <div class="px-6 mb-6 flex gap-2 overflow-x-auto no-scrollbar pt-2">
+                    <button class="px-4 py-1.5 bg-yellow-500 text-black text-xs font-bold rounded-full whitespace-nowrap shadow-lg shadow-yellow-500/20">Semua</button>
+                    <button class="px-4 py-1.5 bg-[#1e293b] border border-gray-700 text-gray-400 text-xs font-medium rounded-full whitespace-nowrap">Action</button>
+                    <button class="px-4 py-1.5 bg-[#1e293b] border border-gray-700 text-gray-400 text-xs font-medium rounded-full whitespace-nowrap">Isekai</button>
+                    <button class="px-4 py-1.5 bg-[#1e293b] border border-gray-700 text-gray-400 text-xs font-medium rounded-full whitespace-nowrap">Romance</button>
+                    <button class="px-4 py-1.5 bg-[#1e293b] border border-gray-700 text-gray-400 text-xs font-medium rounded-full whitespace-nowrap">Donghua</button>
+                </div>
+
+                <div class="px-6 mb-8">
+                    <div id="heroContainer" class="w-full rounded-2xl overflow-hidden shadow-2xl shadow-blue-900/10 relative aspect-[16/9]"></div>
+                </div>
+
+                <div class="mb-8">
+                    <div class="px-6 flex justify-between items-center mb-4">
+                        <h2 class="text-lg font-bold text-white">Episode Terbaru</h2>
+                        <button onclick="navTo('view-ongoing')" class="text-xs text-yellow-500 font-semibold flex items-center gap-1">Lihat Semua</button>
+                    </div>
+                    <div id="ongoingList" class="flex gap-3 overflow-x-auto px-6 pb-4 no-scrollbar snap-x scroll-pl-6"></div>
+                </div>
+
+                <div class="mb-8">
+                    <div class="px-6 flex justify-between items-center mb-4">
+                        <h2 class="text-lg font-bold text-white">Anime Movie</h2>
+                        <button onclick="navTo('view-movie')" class="text-xs text-yellow-500 font-semibold flex items-center gap-1">Lihat Semua</button>
+                    </div>
+                    <div id="movieList" class="flex gap-3 overflow-x-auto px-6 pb-4 no-scrollbar snap-x scroll-pl-6"></div>
+                </div>
+
+                 <div class="mb-8">
+                    <div class="px-6 flex justify-between items-center mb-4">
+                        <h2 class="text-lg font-bold text-white">Donghua Series</h2>
+                        <button onclick="navTo('view-donghua')" class="text-xs text-yellow-500 font-semibold flex items-center gap-1">Lihat Semua</button>
+                    </div>
+                    <div id="donghuaList" class="flex gap-3 overflow-x-auto px-6 pb-4 no-scrollbar snap-x scroll-pl-6"></div>
+                </div>
+
+                <div class="px-6 pb-4">
+                    <div class="flex justify-between items-center mb-4">
+                        <h2 class="text-lg font-bold text-white">Rekomendasi Tamat</h2>
+                         <button onclick="navTo('view-complete')" class="text-xs text-yellow-500 font-semibold">Lainnya</button>
+                    </div>
+                    <div id="completedListHome" class="grid grid-cols-1 gap-3"></div>
+                </div>
+            </div>
+        </div>
+
+        <div id="view-search" class="hidden px-6 fade-in pt-2"> <div class="flex justify-between items-end mb-4">
+                <h2 class="text-lg font-bold">Hasil Pencarian</h2>
+                <span id="searchQueryDisplay" class="text-xs text-yellow-500 font-mono"></span>
+            </div>
+            <div id="searchResultList" class="grid grid-cols-3 gap-3"></div> </div>
+
+        <div id="view-schedule" class="hidden px-6 fade-in pt-2">
+            <h2 class="text-xl font-bold mb-6">Jadwal Tayang</h2>
+            <div id="scheduleList" class="space-y-3 pb-4"></div>
+        </div>
+
+        <div id="view-complete" class="hidden px-6 fade-in pt-2">
+            <h2 class="text-xl font-bold mb-4">Daftar Tamat</h2>
+            <div id="completePageList" class="grid grid-cols-3 gap-3 pb-4"></div>
+        </div>
+        <div id="view-ongoing" class="hidden px-6 fade-in pt-2">
+            <h2 class="text-xl font-bold mb-4">Daftar Ongoing</h2>
+            <div id="ongoingPageList" class="grid grid-cols-3 gap-3 pb-4"></div>
+        </div>
+        <div id="view-movie" class="hidden px-6 fade-in pt-2">
+            <h2 class="text-xl font-bold mb-4">Daftar Movie</h2>
+            <div id="moviePageList" class="grid grid-cols-3 gap-3 pb-4"></div>
+        </div>
+        <div id="view-donghua" class="hidden px-6 fade-in pt-2">
+            <h2 class="text-xl font-bold mb-4">Daftar Donghua</h2>
+            <div id="donghuaPageList" class="grid grid-cols-3 gap-3 pb-4"></div>
+        </div>
+
+    </div>
+
+    <div class="fixed bottom-6 left-0 right-0 flex justify-center z-50 pointer-events-none">
+        <div class="glass-nav pointer-events-auto px-6 py-3 rounded-full shadow-2xl shadow-black/60 flex items-center gap-8 border border-gray-700/50">
+            <button onclick="navTo('view-home')" id="nav-home" class="nav-btn text-yellow-500 flex flex-col items-center gap-1 transition active:scale-90">
+                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z"></path></svg>
+                <span class="text-[9px] font-bold">Home</span>
+            </button>
+             <button onclick="navTo('view-ongoing')" id="nav-ongoing" class="nav-btn text-gray-400 hover:text-white flex flex-col items-center gap-1 transition active:scale-90">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                <span class="text-[9px] font-medium">Ongoing</span>
+            </button>
+            <button onclick="document.getElementById('searchInput').focus()" class="bg-yellow-500 hover:bg-yellow-400 text-black p-3.5 rounded-full -mt-10 shadow-lg shadow-yellow-500/30 border-4 border-[#0f172a] transform transition hover:-translate-y-1 active:scale-95">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+            </button>
+            <button onclick="navTo('view-schedule')" id="nav-schedule" class="nav-btn text-gray-400 hover:text-white flex flex-col items-center gap-1 transition active:scale-90">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+                <span class="text-[9px] font-medium">Jadwal</span>
+            </button>
+            <button onclick="navTo('view-complete')" id="nav-complete" class="nav-btn text-gray-400 hover:text-white flex flex-col items-center gap-1 transition active:scale-90">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path></svg>
+                <span class="text-[9px] font-medium">Tamat</span>
+            </button>
+        </div>
+    </div>
+
+    <script>
+        const BASE_API = "https://www.sankavollerei.com/anime/kura";
+        const UPDATE_JSON_URL = "https://raw.githubusercontent.com/ikyStarboy/UpdateSistem/refs/heads/main/update.json"; 
+        
+        let loadedViews = { schedule: false, complete: false, ongoing: false, movie: false, donghua: false };
+
+        // --- COMPONENT RENDERERS ---
+        function createScrollCard(anime) {
+            const imgUrl = anime.image || anime.poster;
+            const epStr = anime.episode ? anime.episode.replace('Ep ', '') : '?';
+            const rating = anime.rating || anime.score || '';
+            // FIX: Tambahkan margin-right (mr-1) agar tidak nempel saat discroll
+            return `
+            <a href="detail.html?id=${anime.id}&slug=${anime.slug}" class="group relative block w-28 snap-start shrink-0 mr-1">
+                <div class="relative h-40 rounded-lg overflow-hidden bg-[#1e293b]">
+                    <img src="${imgUrl}" alt="${anime.title}" class="w-full h-full object-cover opacity-90 group-hover:opacity-100 transition">
+                    ${rating ? `<div class="absolute top-0 left-0"><span class="bg-yellow-500 text-black text-[9px] font-extrabold px-1.5 py-0.5 rounded-br-lg">${rating}</span></div>` : ''}
+                    <div class="absolute bottom-0 left-0 w-full bg-gradient-to-t from-black/90 to-transparent p-2 pt-6">
+                        <span class="text-[10px] font-medium text-white">Ep ${epStr}</span>
+                    </div>
+                </div>
+                <h3 class="text-[10px] font-semibold text-gray-300 mt-1.5 line-clamp-2 leading-tight group-hover:text-yellow-500 transition">${anime.title}</h3>
+            </a>`;
+        }
+
+        function createGridCard(anime) {
+            const imgUrl = anime.image || anime.poster;
+            const epStr = anime.episode ? anime.episode.replace('Ep ', '') : '?';
+            return `
+            <a href="detail.html?id=${anime.id}&slug=${anime.slug}" class="group relative block w-full">
+                <div class="relative aspect-[2/3] rounded-lg overflow-hidden bg-[#1e293b]">
+                    <img src="${imgUrl}" alt="${anime.title}" class="w-full h-full object-cover opacity-90 group-hover:opacity-100 transition">
+                    <div class="absolute bottom-0 left-0 w-full bg-gradient-to-t from-black/90 to-transparent p-1.5 pt-4">
+                        <span class="text-[9px] font-bold text-white">Ep ${epStr}</span>
+                    </div>
+                </div>
+                <h3 class="text-[10px] font-medium text-gray-300 mt-1 line-clamp-2 leading-tight group-hover:text-yellow-500 transition">${anime.title}</h3>
+            </a>`;
+        }
+
+        function createDetailedCard(anime) {
+            const imgUrl = anime.image || anime.poster;
+            const rating = anime.rating || anime.score || 'N/A';
+            return `
+            <a href="detail.html?id=${anime.id}&slug=${anime.slug}" class="flex gap-3 bg-[#1e293b]/50 border border-gray-800/50 p-2 rounded-xl hover:bg-[#1e293b] transition group">
+                <div class="w-16 h-24 shrink-0 rounded-lg overflow-hidden">
+                    <img src="${imgUrl}" class="w-full h-full object-cover">
+                </div>
+                <div class="flex-1 min-w-0 py-1 flex flex-col justify-between">
+                    <div>
+                        <div class="flex gap-1 mb-1"><span class="text-[9px] bg-blue-900/50 text-blue-300 px-1.5 py-0.5 rounded">★ ${rating.toString().substr(0,3)}</span></div>
+                        <h3 class="text-sm font-bold text-white leading-tight line-clamp-2 group-hover:text-yellow-500 transition">${anime.title}</h3>
+                    </div>
+                    <div class="flex items-center gap-1 text-[10px] text-gray-400 mt-1"><span>Tamat / Completed</span></div>
+                </div>
+            </a>`;
+        }
+
+        function createScheduleCard(anime) {
+            return `
+            <a href="detail.html?id=${anime.id}&slug=${anime.slug}" class="flex items-center gap-3 p-2.5 rounded-xl border border-gray-800 bg-[#1e293b]/40 hover:bg-[#1e293b] transition">
+                <div class="w-10 h-14 rounded overflow-hidden shrink-0">
+                    <img src="${anime.poster}" class="w-full h-full object-cover">
+                </div>
+                <div class="flex-1 min-w-0">
+                    <h3 class="text-sm font-bold text-white truncate">${anime.title}</h3>
+                    <p class="text-xs text-gray-400">Tayang hari ini</p>
+                </div>
+                <div class="bg-yellow-500 text-black text-[10px] font-bold px-2 py-1 rounded-full">Tonton</div>
+            </a>`;
+        }
+
+        // --- API & UPDATE LOGIC ---
+
+        async function checkForUpdate() {
+            if (typeof Android === 'undefined' || !Android.getAppVersionCode) return;
+
+            const currentVersionCode = Android.getAppVersionCode();
+            document.getElementById('currentVerTxt').innerText = `v${currentVersionCode}.0`;
+
+            try {
+                const res = await fetch(`${UPDATE_JSON_URL}?t=${new Date().getTime()}`);
+                const data = await res.json();
+                if (data.versionCode > currentVersionCode) {
+                    showUpdateModal(data);
+                }
+            } catch (e) { console.error("Gagal cek update:", e); }
+        }
+
+        function showUpdateModal(data) {
+            const modal = document.getElementById('updateModal');
+            const btnLink = document.getElementById('updateBtnLink');
+            const skipBtn = document.getElementById('skipUpdateBtn');
+            document.getElementById('newVerTxt').innerText = `v${data.versionName}`;
+            if(data.changelog) document.getElementById('updateChangelog').innerText = data.changelog;
+            btnLink.href = data.downloadUrl;
+            if (data.forceUpdate) {
+                skipBtn.classList.add('hidden');
+                modal.onclick = (e) => e.stopPropagation();
+            } else {
+                skipBtn.classList.remove('hidden');
+            }
+            modal.classList.remove('hidden');
+        }
+
+        function closeUpdateModal() {
+            document.getElementById('updateModal').classList.add('hidden');
+        }
+
+        async function fetchHome() {
+            try {
+                const response = await fetch(`${BASE_API}/home`);
+                const data = await response.json();
+
+                if(data.status === "success") {
+                    const hero = data.hero[0];
+                    if(hero) {
+                        document.getElementById('heroContainer').innerHTML = `
+                             <a href="detail.html?id=${hero.id}&slug=${hero.slug}" class="block w-full h-full group">
+                                <img src="${hero.image}" class="w-full h-full object-cover brightness-75 group-hover:scale-105 transition duration-700">
+                                <div class="absolute inset-0 bg-gradient-to-t from-[#0f172a] via-transparent to-transparent"></div>
+                                <div class="absolute bottom-0 left-0 w-full p-4">
+                                    <span class="bg-red-600 text-white text-[10px] font-bold px-2 py-0.5 rounded mb-2 inline-block">POPULER</span>
+                                    <h2 class="text-lg font-bold text-white line-clamp-1 leading-tight mb-1">${hero.title}</h2>
+                                </div>
+                            </a>`;
+                    }
+                    document.getElementById('ongoingList').innerHTML = data.ongoing.map(anime => createScrollCard(anime)).join('');
+                    document.getElementById('movieList').innerHTML = data.movie.map(anime => createScrollCard(anime)).join('');
+                    document.getElementById('completedListHome').innerHTML = data.completed.map(anime => createDetailedCard(anime)).join('');
+                    fetchDonghuaHome();
+                    document.getElementById('homeSkeleton').classList.add('hidden');
+                    document.getElementById('homeData').classList.remove('hidden');
+                }
+            } catch (error) { console.error(error); }
+        }
+
+        async function fetchDonghuaHome() {
+            try {
+                const res = await fetch(`${BASE_API}/quick/donghua`);
+                const data = await res.json();
+                if(data.status === 'success') {
+                     document.getElementById('donghuaList').innerHTML = data.animes.map(anime => createScrollCard(anime)).join('');
+                }
+            } catch(e) {}
+        }
+
+        async function fetchSchedule() {
+            if(loadedViews.schedule) return;
+            const listDiv = document.getElementById('scheduleList');
+            try {
+                const res = await fetch(`${BASE_API}/schedule`);
+                const data = await res.json();
+                if(data.status === 'success') {
+                    listDiv.innerHTML = data.results.map(anime => createScheduleCard(anime)).join('');
+                    loadedViews.schedule = true;
+                }
+            } catch(e) {}
+        }
+
+        async function fetchCompletePage() {
+            if(loadedViews.complete) return;
+            const listDiv = document.getElementById('completePageList');
+            try {
+                const res = await fetch(`${BASE_API}/quick/finished`);
+                const data = await res.json();
+                if(data.status === 'success') {
+                    listDiv.innerHTML = data.animes.map(anime => createGridCard(anime)).join('');
+                    loadedViews.complete = true;
+                }
+            } catch(e) {}
+        }
+
+        async function fetchOngoingPage() {
+             if(loadedViews.ongoing) return;
+             const listDiv = document.getElementById('ongoingPageList');
+             try {
+                const res = await fetch(`${BASE_API}/quick/ongoing`);
+                const data = await res.json();
+                if(data.status === 'success') {
+                    listDiv.innerHTML = data.animes.map(anime => createGridCard(anime)).join('');
+                    loadedViews.ongoing = true;
+                }
+             } catch(e) {}
+        }
+
+        async function fetchMoviePage() {
+             if(loadedViews.movie) return;
+             const listDiv = document.getElementById('moviePageList');
+             try {
+                const res = await fetch(`${BASE_API}/quick/movie`);
+                const data = await res.json();
+                if(data.status === 'success') {
+                    listDiv.innerHTML = data.animes.map(anime => createGridCard(anime)).join('');
+                    loadedViews.movie = true;
+                }
+             } catch(e) {}
+        }
+
+        async function fetchDonghuaPage() {
+             if(loadedViews.donghua) return;
+             const listDiv = document.getElementById('donghuaPageList');
+             try {
+                const res = await fetch(`${BASE_API}/quick/donghua`);
+                const data = await res.json();
+                if(data.status === 'success') {
+                    listDiv.innerHTML = data.animes.map(anime => createGridCard(anime)).join('');
+                    loadedViews.donghua = true;
+                }
+             } catch(e) {}
+        }
+
+        let searchTimeout;
+        const searchInput = document.getElementById('searchInput');
+        const searchLoader = document.getElementById('searchLoader');
+
+        searchInput.addEventListener('input', function(e) {
+            const query = e.target.value.trim();
+            if(query === "") {
+                clearTimeout(searchTimeout);
+                navTo('view-home');
+                searchLoader.classList.add('hidden');
+                return;
+            }
+            searchLoader.classList.remove('hidden');
+            clearTimeout(searchTimeout);
+            searchTimeout = setTimeout(() => performSearch(query), 600);
+        });
+
+        async function performSearch(query) {
+            navTo('view-search', false);
+            document.getElementById('searchQueryDisplay').innerText = `"${query}"`;
+            const container = document.getElementById('searchResultList');
+            container.innerHTML = ''; 
+            try {
+                const res = await fetch(`${BASE_API}/search/${encodeURIComponent(query)}`);
+                const data = await res.json();
+                searchLoader.classList.add('hidden');
+                if(data.status === 'success' && data.results.length > 0) {
+                    container.innerHTML = data.results.map(anime => createGridCard(anime)).join('');
+                } else {
+                    container.innerHTML = '<div class="col-span-full text-center text-gray-500 py-10">Anime tidak ditemukan.</div>';
+                }
+            } catch (e) { searchLoader.classList.add('hidden'); }
+        }
+
+        function navTo(viewId, updateActiveBtn = true) {
+            ['view-home', 'view-search', 'view-schedule', 'view-complete', 'view-ongoing', 'view-movie', 'view-donghua'].forEach(id => {
+                document.getElementById(id).classList.add('hidden');
+            });
+            document.getElementById(viewId).classList.remove('hidden');
+
+            if(updateActiveBtn) {
+                document.querySelectorAll('.nav-btn').forEach(btn => {
+                    btn.classList.remove('text-yellow-500');
+                    btn.classList.add('text-gray-400');
+                });
+                let btnId = '';
+                if(viewId === 'view-home') btnId = 'nav-home';
+                if(viewId === 'view-schedule') btnId = 'nav-schedule';
+                if(viewId === 'view-complete') btnId = 'nav-complete';
+                if(viewId === 'view-ongoing') btnId = 'nav-ongoing';
+                if(btnId) {
+                    const activeBtn = document.getElementById(btnId);
+                    if(activeBtn) {
+                        activeBtn.classList.remove('text-gray-400');
+                        activeBtn.classList.add('text-yellow-500');
+                    }
+                }
+            }
+            if(viewId === 'view-schedule') fetchSchedule();
+            if(viewId === 'view-complete') fetchCompletePage();
+            if(viewId === 'view-ongoing') fetchOngoingPage();
+            if(viewId === 'view-movie') fetchMoviePage();
+            if(viewId === 'view-donghua') fetchDonghuaPage();
+            window.scrollTo(0, 0);
+        }
+
+        checkForUpdate();
+        fetchHome();
+    </script>
+</body>
+</html>
