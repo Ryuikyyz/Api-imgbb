@@ -1,0 +1,628 @@
+bisa bikin app native pakai android studio dari api api ini bisa kan ini api nya
+untuk Base nya ini "https://www.sankavollerei.com/anime/kura/"
+
+nah untuk pertama itu home
+https://www.sankavollerei.com/anime/kura/home isi:
+{
+  "status": "success",
+  "creator": "Sanka Vollerei",
+  "hero": [
+    {
+      "title": "Otome Game no Hametsu Flag shika Nai Akuyaku Reijou ni Tensei shiteshimatta... X",
+      "id": "40",
+      "slug": "otome-game-no-hametsu-flag-shika-nai-akuyaku-reijou-ni-tensei-shiteshimatta-x",
+      "image": "https://i0.wp.com/r2.nyomo.my.id/images/20240430-1714412653-7df721a7-df96-4dec-9659-c37a467e6132.jpeg",
+      "label": [
+        "Comedy",
+        "Fantasy",
+        "Romance",
+        "Shoujo",
+        "Isekai",
+        "Reverse Harem",
+        "School",
+        "Villainess"
+      ],
+      "description": "Dengan tidak ada lagi bendera kematian yang terlihat, Catarina Claes yang ramah dan padat akhirnya d..."
+    }
+  ],
+  "ongoing": [
+    {
+      "title": "Disney Twisted-Wonderland The Animation: Episode of Heartslabyul",
+      "id": "4284",
+      "slug": "disney-twisted-wonderland-the-animation-episode-of-heartslabyul",
+      "image": "https://i0.wp.com/r2.nyomo.my.id/images/20251105-1762331952-4eeac49f-f9a9-4d1f-bb6b-69d459cd5d5d.jpeg",
+      "episode": "4/8",
+      "rating": null,
+      "type": "ONA",
+      "quality": "WEB-DL",
+      "status": "Ongoing"
+    }
+  ],
+  "completed": [
+    {
+      "title": "School Days: Magical Heart Kokoro-chan",
+      "id": "4310",
+      "slug": "school-days-magical-heart-kokoro-chan",
+      "image": "https://i0.wp.com/r2.nyomo.my.id/images/20251113-1762970388-bd633ea1-983e-49d2-83d4-326967e2fe2a.jpeg",
+      "episode": null,
+      "rating": "5.52",
+      "type": "OVA",
+      "quality": "BD",
+      "status": "Completed"
+    }
+  ],
+  "movie": [
+    {
+      "title": "Higurashi no Naku Koro ni Kaku: Outbreak",
+      "id": "3024",
+      "slug": "higurashi-no-naku-koro-ni-kaku-outbreak",
+      "image": "https://i0.wp.com/r2.nyomo.my.id/images/20251106-1762441585-76322622-3db0-468e-b6c9-9930010957b3.jpeg",
+      "episode": null,
+      "rating": "7.20",
+      "type": "Movie",
+      "quality": "DVD",
+      "status": "Completed"
+    }
+  ]
+}"
+
+ini untuk search:
+"https://www.sankavollerei.com/anime/kura/search/guilty%20hole isi:
+{
+  "status": "success",
+  "creator": "Sanka Vollerei",
+  "results": [
+    {
+      "title": "Guilty Hole",
+      "id": "4137",
+      "slug": "guilty-hole",
+      "image": "https://i0.wp.com/r2.nyomo.my.id/images/20251021-1761052075-76b0ec8a-8352-45e0-b4d4-c5ec9c1aaddb.",
+      "episode": null,
+      "rating": "6.46",
+      "type": "ONA",
+      "quality": "WEB-DL",
+      "status": "Completed"
+    }
+  ],
+  "pagination": []
+}"
+
+ini untuk detail:
+"https://www.sankavollerei.com/anime/kura/anime/4137/guilty-hole isi:
+{
+  "status": "success",
+  "creator": "Sanka Vollerei",
+  "results": {
+    "id": 4137,
+    "slug": "guilty-hole",
+    "title": "[18+]  Guilty Hole",
+    "title_raw": "Guilty Hole ～ Room of Guilty Pleasure, ギルティホール, Room of Guilty Pleasure",
+    "image": "https://i0.wp.com/r2.nyomo.my.id/images/20251021-1761052075-76b0ec8a-8352-45e0-b4d4-c5ec9c1aaddb.",
+    "description": "\"Silakan pilih siswa favorit Anda...\"<br><br>Guru yang kelelahan dan kurang bayar, Pak Sasaki, hidupnya terbalik ketika ia secara tidak sengaja menemukan \"Guilty Hole.\"<br>Ia mengira itu mimpi ketika melihat loker sepatu siswa telah berubah menjadi panel pemilihan... melihat salah satu yang menarik perhatiannya, ia memilihnya dengan bercanda...<br><br>Ketika dia muncul di kelasnya di tengah malam, melontarkan hinaan padanya, tapi matanya seolah-olah terpaku padanya, diwarnai rasa malu.<br><br>\"Aku akan menyelesaikan ini dengan cepat, jadi... Jangan menahan diri, ya...?\"<br><br>Demikianlah dimulai hubungan terlarang...<br>Selamat datang di Guilty Hole, tempat di mana segalanya diizinkan--<br><br>(Sumber: Situs web resmi, diterjemahkan)<br><br><i>Catatan: Sinopsis diterjemahkan secara otomatis oleh Google Translate.</i>",
+    "details": [
+      {
+        "type": "Tipe:",
+        "data": "ONA"
+      },
+      {
+        "type": "Episode:",
+        "data": "8"
+      },
+      {
+        "type": "Status:",
+        "data": "Sedang Tayang"
+      },
+      {
+        "type": "Tayang:",
+        "data": "05 Okt 2025 - ?"
+      },
+      {
+        "type": "Musim:",
+        "data": "Fall 2025"
+      },
+      {
+        "type": "Durasi:",
+        "data": "7 menit per episode"
+      },
+      {
+        "type": "Kualitas:",
+        "data": "WEB-DL"
+      },
+      {
+        "type": "Negara:",
+        "data": "JP"
+      },
+      {
+        "type": "Adaptasi:",
+        "data": "Manga"
+      },
+      {
+        "type": "Genre:",
+        "data": "Hentai"
+      },
+      {
+        "type": "Eksplisit:",
+        "data": null
+      },
+      {
+        "type": "Demografis:",
+        "data": null
+      },
+      {
+        "type": "Tema:",
+        "data": null
+      },
+      {
+        "type": "Studio:",
+        "data": "Studio Hokiboshi"
+      },
+      {
+        "type": "Skor:",
+        "data": "6.46 / 10.00"
+      },
+      {
+        "type": "Peminat:",
+        "data": "1,596 orang"
+      },
+      {
+        "type": "Rating:",
+        "data": "Rx - Hentai"
+      },
+      {
+        "type": "Kredit:",
+        "data": "Kuramanime"
+      }
+    ],
+    "episode": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "batch": []
+  }
+}"
+
+ini untuk nonton/stream:
+"https://www.sankavollerei.com/anime/kura/watch/4137/guilty-hole/1 isi:
+{
+  "status": "success",
+  "creator": "Sanka Vollerei",
+  "source": "Kuramanime",
+  "title": "Guilty Hole (Guilty Hole ～ Room of Guilty Pleasure) (Episode 01) Subtitle Indonesia",
+  "streams": [
+    {
+      "quality": "720p",
+      "url": "https://anisphia.my.id/kdrive/OwzyjZUFvHb/Kuramanime-GLTHOLE-01-720p.mp4?lud=1758831834&pid=37167&sid=193679&cce=1"
+    },
+    {
+      "quality": "480p",
+      "url": "https://anisphia.my.id/kdrive/kdLvcApp2I5x9XH/Kuramanime-GLTHOLE-01-480p.mp4?lud=1758831834&pid=37167&sid=193678&cce=1"
+    },
+    {
+      "quality": "360p",
+      "url": "https://anisphia.my.id/kdrive/cbg88uuwAN4YDxB/Kuramanime-GLTHOLE-01-360p.mp4?lud=1758831833&pid=37167&sid=193677&cce=1"
+    }
+  ],
+  "downloads": [
+    {
+      "quality_group": "MKV 480p (Hardsub) — (47.70 MB)",
+      "links": [
+        {
+          "provider": "Extra 1",
+          "url": "https://pixeldrain.com/d/ASstS32U"
+        },
+        {
+          "provider": "Extra 2",
+          "url": "https://mypikpak.com/s/VOa1YLp_3CuyECrDeBlxUGu3o2"
+        },
+        {
+          "provider": "Extra 3",
+          "url": "https://www.dropbox.com/scl/fi/updp67w0j3v9dgwfy5jda/Kuramanime-GLTHOLE-01-480p.mkv?rlkey=qdupl60crw2myaww4h3arkqo6&dl=0"
+        },
+        {
+          "provider": "kDrive",
+          "url": "https://v1.kuramadrive.com/kdrive/HnN3Si2Iz1Gh"
+        },
+        {
+          "provider": "kTurbo",
+          "url": "https://v1.kuramadrive.com/kturbo/HnN3Si2Iz1Gh"
+        },
+        {
+          "provider": "MEGA",
+          "url": "https://mega.co.nz/#!j5gRhZyQ!F1bzXJx4CwbpVaEZepbwiEqlSRo0Y9bVSMRVR5LWPQg"
+        }
+      ]
+    },
+    {
+      "quality_group": "MKV 720p (Hardsub) — (90.84 MB)",
+      "links": [
+        {
+          "provider": "Extra 1",
+          "url": "https://pixeldrain.com/d/if1SDESw"
+        },
+        {
+          "provider": "Extra 2",
+          "url": "https://mypikpak.com/s/VOa1YOCmp1Ovi0A7mRXxlosTo2"
+        },
+        {
+          "provider": "Extra 3",
+          "url": "https://www.dropbox.com/scl/fi/lc9fwb16dhnsz81ktym10/Kuramanime-GLTHOLE-01-720p.mkv?rlkey=v6xwidqtkzyo2l4zkjw02spdz&dl=0"
+        },
+        {
+          "provider": "kDrive",
+          "url": "https://v1.kuramadrive.com/kdrive/yqjtTAUIVqz"
+        },
+        {
+          "provider": "kTurbo",
+          "url": "https://v1.kuramadrive.com/kturbo/yqjtTAUIVqz"
+        },
+        {
+          "provider": "MEGA",
+          "url": "https://mega.co.nz/#!v0AWwZAb!ghqfOPH4zh_3Bxxp6TWfeXZiWB2KMNdD_neDjLONL8g"
+        }
+      ]
+    },
+    {
+      "quality_group": "MP4 360p (Hardsub) — (21.97 MB)",
+      "links": [
+        {
+          "provider": "Extra 1",
+          "url": "https://pixeldrain.com/d/f6Kacxzn"
+        },
+        {
+          "provider": "Extra 2",
+          "url": "https://mypikpak.com/s/VOa1YQUpp1Ovi0A7mRXxlpUQo2"
+        },
+        {
+          "provider": "Extra 3",
+          "url": "https://www.dropbox.com/scl/fi/5s2aar1etaxj1haw26gwg/Kuramanime-GLTHOLE-01-360p.mp4?rlkey=i8jewu7qjngautumnkwazhrp4&dl=0"
+        },
+        {
+          "provider": "kDrive",
+          "url": "https://v1.kuramadrive.com/kdrive/cbg88uuwAN4YDxB"
+        },
+        {
+          "provider": "kTurbo",
+          "url": "https://v1.kuramadrive.com/kturbo/cbg88uuwAN4YDxB"
+        },
+        {
+          "provider": "MEGA",
+          "url": "https://mega.co.nz/#!3tR2iABb!S0NK_afw4wo-hwWKwL5dxqF-ASTWHPyvpUWwWp1jfTU"
+        }
+      ]
+    },
+    {
+      "quality_group": "MP4 480p (Hardsub) — (30.06 MB)",
+      "links": [
+        {
+          "provider": "Extra 1",
+          "url": "https://pixeldrain.com/d/EQDAx1AX"
+        },
+        {
+          "provider": "Extra 2",
+          "url": "https://mypikpak.com/s/VOa1YSqhg9OYhfJe6pl93FNSo2"
+        },
+        {
+          "provider": "Extra 3",
+          "url": "https://www.dropbox.com/scl/fi/8m9eqz25pso0dsy8fawz4/Kuramanime-GLTHOLE-01-480p.mp4?rlkey=7d9rlhwkzharstlphi09dhr59&dl=0"
+        },
+        {
+          "provider": "kDrive",
+          "url": "https://v1.kuramadrive.com/kdrive/kdLvcApp2I5x9XH"
+        },
+        {
+          "provider": "kTurbo",
+          "url": "https://v1.kuramadrive.com/kturbo/kdLvcApp2I5x9XH"
+        },
+        {
+          "provider": "MEGA",
+          "url": "https://mega.co.nz/#!ap5CTbJL!drzj4m_NPgv_3NPijMcr4xLVpLIERCZHWkRxSZx9pyA"
+        }
+      ]
+    },
+    {
+      "quality_group": "MP4 720p (Hardsub) — (51.93 MB)",
+      "links": [
+        {
+          "provider": "Extra 1",
+          "url": "https://pixeldrain.com/d/2ip9jQie"
+        },
+        {
+          "provider": "Extra 2",
+          "url": "https://mypikpak.com/s/VOa1YVBglpm90iSn6B84vn6Go2"
+        },
+        {
+          "provider": "Extra 3",
+          "url": "https://www.dropbox.com/scl/fi/tz76t6wycdemsix3fp1os/Kuramanime-GLTHOLE-01-720p.mp4?rlkey=oswmd7f7yq7y88n1wiwm1vbvb&dl=0"
+        },
+        {
+          "provider": "kDrive",
+          "url": "https://v1.kuramadrive.com/kdrive/OwzyjZUFvHb"
+        },
+        {
+          "provider": "kTurbo",
+          "url": "https://v1.kuramadrive.com/kturbo/OwzyjZUFvHb"
+        },
+        {
+          "provider": "MEGA",
+          "url": "https://mega.co.nz/#!awhw0IYR!L4KvpiQ7upbaoddCBH5p1mCQv4BLix8ypkPLJkXTtsM"
+        }
+      ]
+    }
+  ],
+  "navigation": {
+    "prev": null,
+    "next": "2"
+  }
+}"
+
+ini untuk daftar anime dari a-z:
+"https://www.sankavollerei.com/anime/kura/anime-list isi:
+{
+  "status": "success",
+  "creator": "Sanka Vollerei",
+  "source": "Kuramanime",
+  "animes": [
+    {
+      "id": "3999",
+      "slug": "nvade-show",
+      "title": "!NVADE SHOW!",
+      "poster": "https://r2.nyomo.my.id/images/20250822-1755840794-82bf1058-8a57-4fc4-a57d-98758ef9fb44.jpeg",
+      "score": "5.91",
+      "views": "",
+      "tags": [],
+      "url": "/anime/kura/anime/3999/nvade-show"
+    }
+  ],
+  "pagination": {
+    "hasNext": true,
+    "hasPrev": true,
+    "currentPage": 1
+  }
+}"
+
+ini untuk jadwal rilis:
+"https://www.sankavollerei.com/anime/kura/schedule isi:
+{
+  "status": "success",
+  "creator": "Sanka Vollerei",
+  "source": "Kuramanime",
+  "results": [
+    {
+      "id": "1480",
+      "slug": "urusei-yatsura",
+      "title": "Urusei Yatsura",
+      "poster": "https://r2.nyomo.my.id/images/20250606-1749209553-933baf53-8321-4ce8-bc3a-e1b133623924.jpeg",
+      "score": "Loading...                                                                                        Selanjutnya: Ep                                76",
+      "views": "",
+      "tags": [],
+      "url": "/anime/kura/anime/1480/urusei-yatsura"
+    }
+  ],
+  "pagination": {
+    "hasNext": true,
+    "hasPrev": true,
+    "currentPage": 1
+  }
+}"
+
+ini untuk quick list ongoing:
+"https://www.sankavollerei.com/anime/kura/quick/ongoing isi:
+{
+  "status": "success",
+  "creator": "Sanka Vollerei",
+  "source": "Kuramanime",
+  "animes": [
+    {
+      "id": "4079",
+      "slug": "3-nen-z-gumi-ginpachi-sensei",
+      "title": "3-nen Z-gumi Ginpachi-sensei",
+      "poster": "https://r2.nyomo.my.id/images/20251020-1760976934-53c9da35-87d1-44b4-b943-a30803485170.jpeg",
+      "score": "Ep 7 / 12",
+      "views": "",
+      "tags": [],
+      "url": "/anime/kura/anime/4079/3-nen-z-gumi-ginpachi-sensei"
+    }
+  ],
+  "pagination": {
+    "hasNext": true,
+    "hasPrev": true,
+    "currentPage": 1
+  }
+}"
+
+ini quick list complete:
+"https://www.sankavollerei.com/anime/kura/quick/finished isi:
+{
+  "status": "success",
+  "creator": "Sanka Vollerei",
+  "source": "Kuramanime",
+  "animes": [
+    {
+      "id": "3999",
+      "slug": "nvade-show",
+      "title": "!NVADE SHOW!",
+      "poster": "https://r2.nyomo.my.id/images/20250822-1755840794-82bf1058-8a57-4fc4-a57d-98758ef9fb44.jpeg",
+      "score": "5.91",
+      "views": "",
+      "tags": [],
+      "url": "/anime/kura/anime/3999/nvade-show"
+    }
+  ],
+  "pagination": {
+    "hasNext": true,
+    "hasPrev": true,
+    "currentPage": 1
+  }
+}"
+
+ini untuk quick list movie:
+"https://www.sankavollerei.com/anime/kura/quick/movie isi:
+{
+  "status": "success",
+  "creator": "Sanka Vollerei",
+  "source": "Kuramanime",
+  "animes": [
+    {
+      "id": "1551",
+      "slug": "5-toubun-no-hanayome-movie",
+      "title": "5-toubun no Hanayome Movie",
+      "poster": "https://cdn.myanimelist.net/images/anime/1037/122516l.jpg",
+      "score": "7.82",
+      "views": "",
+      "tags": [],
+      "url": "/anime/kura/anime/1551/5-toubun-no-hanayome-movie"
+    }
+  ],
+  "pagination": {
+    "hasNext": true,
+    "hasPrev": true,
+    "currentPage": 1
+  }
+}"
+
+ini quick list donghua:
+"https://www.sankavollerei.com/anime/kura/quick/donghua isi:
+{
+  "status": "success",
+  "creator": "Sanka Vollerei",
+  "source": "Kuramanime",
+  "animes": [
+    {
+      "id": "3837",
+      "slug": "2024-arknights-yinlu-lian-jue-bumi-langchen-xiandao-yugao",
+      "title": "2024 Arknights Yinlu Lian Jue: Bumi Langchen Xiandao Yugao",
+      "poster": "https://r2.nyomo.my.id/images/20250623-1750617158-c6ab268e-dbaf-4123-bce8-4579332c5ff3.jpeg",
+      "score": "6.70",
+      "views": "",
+      "tags": [],
+      "url": "/anime/kura/anime/3837/2024-arknights-yinlu-lian-jue-bumi-langchen-xiandao-yugao"
+    }
+  ],
+  "pagination": {
+    "hasNext": true,
+    "hasPrev": true,
+    "currentPage": 1
+  }
+}"
+
+ini untuk genre list:
+"https://www.sankavollerei.com/anime/kura/properties/genre isi:
+{
+  "status": "success",
+  "creator": "Sanka Vollerei",
+  "source": "Kuramanime",
+  "properties": [
+    {
+      "title": "Action",
+      "slug": "action"
+    }
+  ]
+}"
+
+ini untuk genre detail:
+"https://www.sankavollerei.com/anime/kura/properties/genre/action isi:
+{
+  "status": "success",
+  "creator": "Sanka Vollerei",
+  "source": "Kuramanime",
+  "animes": [
+    {
+      "id": "3539",
+      "slug": "compass-20-sentou-setsuri-kaiseki-system",
+      "title": "#Compass 2.0: Sentou Setsuri Kaiseki System",
+      "poster": "https://r2.nyomo.my.id/images/20250623-1750694098-61968652-6903-4b1f-8e8c-a3f675a210e2.",
+      "score": "6.02",
+      "views": "",
+      "tags": [],
+      "url": "/anime/kura/anime/3539/compass-20-sentou-setsuri-kaiseki-system"
+    }
+  ],
+  "pagination": {
+    "hasNext": true,
+    "hasPrev": true,
+    "currentPage": 1
+  }
+}"
+
+ini untuk season list:
+"{
+  "status": "success",
+  "creator": "Sanka Vollerei",
+  "source": "Kuramanime",
+  "properties": [
+    {
+      "title": "Fall 1981",
+      "slug": "fall-1981"
+    }
+  ]
+}"
+
+ini season detail:
+https://www.sankavollerei.com/anime/kura/properties/season/fall-2024 isi:
+{
+  "status": "success",
+  "creator": "Sanka Vollerei",
+  "source": "Kuramanime",
+  "animes": [
+    {
+      "id": "3410",
+      "slug": "5-toubun-no-hanayome-2-3",
+      "title": "5-toubun no Hanayome*",
+      "poster": "https://cdn.myanimelist.net/images/anime/1915/145336l.jpg",
+      "score": "7.23",
+      "views": "",
+      "tags": [],
+      "url": "/anime/kura/anime/3410/5-toubun-no-hanayome-2-3"
+    }
+  ],
+  "pagination": {
+    "hasNext": true,
+    "hasPrev": true,
+    "currentPage": 1
+  }
+}"
+
+ini studio list:
+"https://www.sankavollerei.com/anime/kura/properties/studio isi:
+{
+  "status": "success",
+  "creator": "Sanka Vollerei",
+  "source": "Kuramanime",
+  "properties": [
+    {
+      "title": "100studio",
+      "slug": "100studio"
+    }
+  ]
+}"
+
+ini studio detail:
+"https://www.sankavollerei.com/anime/kura/properties/studio/mappa isi:
+{
+  "status": "success",
+  "creator": "Sanka Vollerei",
+  "source": "Kuramanime",
+  "animes": [
+    {
+      "id": "2538",
+      "slug": "alice-to-therese-no-maboroshi-koujou",
+      "title": "Alice to Therese no Maboroshi Koujou",
+      "poster": "https://cdn.myanimelist.net/images/anime/1429/137275l.jpg",
+      "score": "6.82",
+      "views": "",
+      "tags": [],
+      "url": "/anime/kura/anime/2538/alice-to-therese-no-maboroshi-koujou"
+    }
+  ],
+  "pagination": {
+    "hasNext": true,
+    "hasPrev": true,
+    "currentPage": 1
+  }
+}"
+
+tuh aslinya sih sisa 8 api lagi cuma nanti aja jadi karna ini chat baru dan saya langsung kirim file jadi kamu pasti gatau api api nya jadi ini api nya ya
